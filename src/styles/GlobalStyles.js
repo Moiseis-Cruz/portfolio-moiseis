@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    ul {
+        list-style: none;
+    }
+
     a {
         color: #000000;
         text-decoration: none;
