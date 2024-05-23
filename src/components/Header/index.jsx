@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import { MyHeader } from "./Styles";
 
 export const Header = () => {
     return(
@@ -13,10 +13,3 @@ export const Header = () => {
         </MyHeader>
     )
 };
-
-const MyHeader = styled.header`
-    background-color: palevioletred;
-    display: flex;
-    width: 100%;
-    max-width: 1440px;   
-`
