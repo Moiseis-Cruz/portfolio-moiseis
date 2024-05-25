@@ -15,7 +15,10 @@ export const GlobalStyle = createGlobalStyle`
         min-height: 100vh;
         margin: auto;
 
-        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
 
         color-scheme: light dark;
         color: rgba(255, 255, 255, 0.87);
