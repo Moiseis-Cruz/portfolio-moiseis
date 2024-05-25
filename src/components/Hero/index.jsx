@@ -5,9 +5,15 @@ export const Hero = () => {
     return(
         <Container>
             <div>
-                <h1>Título</h1>
+                <h1>
+                    Oi! Eu sou Moiseis
+                    <br />
+                    Eu sou um Frontend
+                    <br />
+                    Developer.
+                </h1>
 
-                <a href="">Botão</a>
+                <a href="">Entre em contato</a>
             </div>
 
             <img src={ImgMyPerfil} alt="" />
