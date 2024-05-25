@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const MyHeader = styled.header`
-    /* background-color: palevioletred; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +22,6 @@ export const Title = styled.h1`
 `
 
 export const ListSections = styled.ul`
-    /* background-color: pink; */
     display: flex;
     gap: 5px;
 `
