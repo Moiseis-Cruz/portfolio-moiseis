@@ -23,7 +23,15 @@ export const Title = styled.h1`
 `
 
 export const ListSections = styled.ul`
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
-    gap: 10px;
+    gap: 5px;
+`
+
+export const BtnContact = styled.a`
+    background-color: #b688dd;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.87);
+    padding: 10px 20px;
+    border-radius: 50px;
 `
