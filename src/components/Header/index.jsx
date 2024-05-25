@@ -1,4 +1,4 @@
-import { MyHeader, Title, ListSections } from "./Styles";
+import { MyHeader, Title, ListSections, BtnContact } from "./Styles";
 
 export const Header = () => {
     return(
@@ -7,10 +7,10 @@ export const Header = () => {
 
             <nav>
                 <ListSections>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Sobre Mim</a></li>
-                    <li><a href="">Habilidades</a></li>
-                    <li><a href="">Projetos</a></li>
+                    <li><BtnContact href="">Início</BtnContact></li>
+                    <li><BtnContact href="">Sobre Mim</BtnContact></li>
+                    <li><BtnContact href="">Habilidades</BtnContact></li>
+                    <li><BtnContact href="">Projetos</BtnContact></li>
                 </ListSections>
             </nav>
         </MyHeader>
