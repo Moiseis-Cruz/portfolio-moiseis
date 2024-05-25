@@ -31,6 +31,11 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
     }
 
+    img {
+        width: 100%;
+        height: auto;
+    }
+
     a {
         color: #000000;
         text-decoration: none;
