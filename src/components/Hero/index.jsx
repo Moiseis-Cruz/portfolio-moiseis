@@ -43,7 +43,6 @@ const ContentImg = styled.div`
     max-width: 450px;
     border-radius: 50%;
     padding: 15px;
-    /* overflow: hidden; */
     box-shadow: inset 0 0 3px 3px rgb(119, 119, 119);
     `
 
