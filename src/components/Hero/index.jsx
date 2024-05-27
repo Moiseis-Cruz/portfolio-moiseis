@@ -29,6 +29,7 @@ const Container = styled.section`
     justify-content: space-around;
     min-height: 100vh;
     @media (max-width: 1024px) {
+        text-align: center;
         flex-direction: column;
         gap: 30px;
         padding: 30px 0;
@@ -44,12 +45,33 @@ const ContentImg = styled.div`
     border-radius: 50%;
     padding: 15px;
     box-shadow: inset 0 0 3px 3px rgb(119, 119, 119);
+    /* @media (max-width: 375px) {
+        padding: 0;
+    } */
     `
 
 const ImgHero = styled.img`
     margin: auto;
     border-radius: 50%;
     box-shadow: 0 0 3px 3px rgb(119, 119, 119);
+
+    background: linear-gradient(to right, #b688dd, #581051);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+
+    @keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
 `
 
 const BtnContact = styled.a`
