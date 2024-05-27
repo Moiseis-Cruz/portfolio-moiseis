@@ -24,7 +24,6 @@ export const Hero = () => {
 };
 
 const Container = styled.section`
-    /* background-color: brown; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -42,7 +41,6 @@ const Title = styled.h1`
 
 const ContentImg = styled.div`
     max-width: 450px;
-    /* background-color: burlywood; */
     border-radius: 50%;
     overflow: hidden;
     box-shadow: inset 0 0 2px 2px rgb(119, 119, 119);
