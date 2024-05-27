@@ -44,15 +44,13 @@ const ContentImg = styled.div`
     border-radius: 50%;
     padding: 15px;
     /* overflow: hidden; */
-    box-shadow: 0 0 2px 2px rgb(119, 119, 119);
+    box-shadow: inset 0 0 3px 3px rgb(119, 119, 119);
     `
 
 const ImgHero = styled.img`
     margin: auto;
     border-radius: 50%;
-    padding: 15px;
-    box-shadow: 0 0 6px 6px rgb(119, 119, 119);
-    background-color: yellow;
+    box-shadow: 0 0 3px 3px rgb(119, 119, 119);
 `
 
 const BtnContact = styled.a`
