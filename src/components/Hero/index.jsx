@@ -24,10 +24,11 @@ export const Hero = () => {
 };
 
 const Container = styled.section`
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    min-height: 100vh;
 `
 
 const Title = styled.h1`
@@ -42,6 +43,9 @@ const ContentImg = styled.div`
 const BtnContact = styled.a`
     margin-top: 30px;
     display: inline-block;
-    background-color: #90a52a;
     font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: #b688dd;
+    border-radius: 8px;
 `
