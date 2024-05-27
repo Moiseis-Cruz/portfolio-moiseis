@@ -5,18 +5,20 @@ export const Hero = () => {
     return(
         <Container>
             <div>
-                <h1>
+                <Title>
                     Oi! Eu sou Moiseis
                     <br />
                     Eu sou um Frontend
                     <br />
                     Developer.
-                </h1>
+                </Title>
 
-                <a href="">Entre em contato</a>
+                <BtnContact href="">Entre em contato</BtnContact>
             </div>
 
-            <img src={ImgMyPerfil} alt="" />
+            <ContentImg>
+                <img src={ImgMyPerfil} alt="Foto do meu perfil" />
+            </ContentImg>
         </Container>
     )
 };
@@ -26,4 +28,20 @@ const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: space-around;
+`
+
+const Title = styled.h1`
+    font-size: 3.5rem;
+`
+
+const ContentImg = styled.div`
+    max-width: 500px;
+
+`
+
+const BtnContact = styled.a`
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #90a52a;
+    font-size: 18px;
 `
