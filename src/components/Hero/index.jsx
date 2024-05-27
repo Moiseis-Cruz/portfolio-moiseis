@@ -17,7 +17,7 @@ export const Hero = () => {
             </div>
 
             <ContentImg>
-                <img src={ImgMyPerfil} style={{margin: "auto", borderRadius: "50%", padding: "15px", boxShadow: "0 0 6px 6px rgb(119, 119, 119)"}} alt="Foto do meu perfil" />
+                <ImgHero src={ImgMyPerfil} alt="Foto do meu perfil" />
             </ContentImg>
         </Container>
     )
@@ -42,9 +42,18 @@ const Title = styled.h1`
 const ContentImg = styled.div`
     max-width: 450px;
     border-radius: 50%;
-    overflow: hidden;
-    box-shadow: inset 0 0 2px 2px rgb(119, 119, 119);
+    padding: 15px;
+    /* overflow: hidden; */
+    box-shadow: 0 0 2px 2px rgb(119, 119, 119);
     `
+
+const ImgHero = styled.img`
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 0 6px 6px rgb(119, 119, 119);
+    background-color: yellow;
+`
 
 const BtnContact = styled.a`
     margin-top: 30px;
