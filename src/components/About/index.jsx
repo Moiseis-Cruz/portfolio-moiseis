@@ -81,7 +81,8 @@ const ListSkills = styled.ul`
     flex-wrap: wrap;
     place-content: center;
     gap: 20px;
-    font-size: 1.8rem;
+    font-size: 3rem;
+    color: #e987eb;
 `
 
 const ContentDescription = styled.div`
