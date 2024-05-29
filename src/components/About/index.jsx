@@ -46,13 +46,21 @@ export const About = () => {
 const Subtitle = styled.h2`
     font-size: 4.5rem;
     font-weight: 500;
+    @media (max-width: 1024px) {
+        text-align: center;
+    }
 `
 
 const ContainerAbout = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 40px;
     margin-top: 30px;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 `
 
 const TitleDescription = styled.h3`
