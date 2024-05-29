@@ -1,3 +1,6 @@
+import { FaReact, FaCss3Alt, FaHtml5, FaGithub, FaGitAlt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+
 import BgMyProfile from "../../assets/imgs/meu-perfil.png"
 
 export const About = () => {
@@ -11,17 +14,19 @@ export const About = () => {
 
                     <p>Essas são as principais ferramentas e habilidades que eu trabalho</p>
 
-                    <img src={BgMyProfile} alt="" />
+                    <div>
+                        <img src={BgMyProfile} alt="" />
+                    </div>
                 </div>
 
                 <div>
                     <ul>
-                        <li>React js</li>
-                        <li>JavaScript</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                        <li>Github</li>
-                        <li>Git</li>
+                        <li><FaReact /> React js</li>
+                        <li><IoLogoJavascript /> JavaScript</li>
+                        <li><FaCss3Alt /> CSS</li>
+                        <li><FaHtml5 /> HTML</li>
+                        <li><FaGithub /> Github</li>
+                        <li><FaGitAlt /> Git</li>
                     </ul>
 
                     <h3>| Quem sou eu</h3>
