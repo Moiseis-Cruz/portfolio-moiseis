@@ -2,21 +2,22 @@ import { FaReact, FaCss3Alt, FaHtml5, FaGithub, FaGitAlt } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io5";
 
 import BgMyProfile from "../../assets/imgs/meu-perfil.png"
+import styled from "styled-components";
 
 export const About = () => {
     return(
         <section>
-            <h2>Sobre.</h2>
+            <Subtitle>Sobre.</Subtitle>
 
-            <div>
+            <ContainerAbout>
                 <div>
-                    <h3>Minhas ferramentas e habilidades</h3>
+                    <TitleDescription>Minhas ferramentas e habilidades</TitleDescription>
 
-                    <p>Essas são as principais ferramentas e habilidades que eu trabalho</p>
+                    <Description>Essas são as principais ferramentas e habilidades que eu trabalho</Description>
 
-                    <div>
+                    <ContainerImageAbout>
                         <img src={BgMyProfile} alt="" />
-                    </div>
+                    </ContainerImageAbout>
                 </div>
 
                 <div>
@@ -37,7 +38,36 @@ export const About = () => {
 
                     <p>Eu sou apaixonado por JavaScript, minha ferramenta predileta, e busco diariamente novas formas de aprimorar minhas capacidades. Essa linguagem versátil me motiva a criar aplicações dinâmicas e interativas, proporcionando uma experiência envolvente para o usuários. Atualmente, atuo como freelancer, onde abraço a diversidade de projetos e enfrento desafio que constantemente estimulam meu crescimento profissional, incentivando minha busca contínua por aprendizado.</p>
                 </div>
-            </div>
+            </ContainerAbout>
         </section>
     )
 };
+
+const Subtitle = styled.h2`
+    font-size: 4.5rem;
+    font-weight: 500;
+`
+
+const ContainerAbout = styled.div`
+    background-color: darkcyan;
+`
+
+const TitleDescription = styled.h3`
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 350px;
+    margin-top: 15px;
+`
+
+const Description = styled.p`
+    font-size: 1.2rem;
+    background-color: gray;
+    max-width: 22rem;
+    margin-top: 15px;
+`
+
+const ContainerImageAbout = styled.div`
+    max-width: 500px;
+    height: auto;
+    margin-top: 15px;
+`
