@@ -49,7 +49,7 @@ const Subtitle = styled.h2`
 `
 
 const ContainerAbout = styled.div`
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -65,7 +65,7 @@ const TitleDescription = styled.h3`
 
 const Description = styled.p`
     font-size: 1.2rem;
-    background-color: gray;
+    /* background-color: gray; */
     max-width: 22rem;
     margin-top: 15px;
 `
@@ -85,7 +85,7 @@ const ListSkills = styled.ul`
 `
 
 const ContentDescription = styled.div`
-    background-color: darkblue;
+    /* background-color: darkblue; */
     max-width: 500px;
 `
 
@@ -96,6 +96,7 @@ const PersonalDescription = styled.h3`
 `
 
 const MyDescription = styled.p`
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 15px;
+    padding-left: 15px;
 `
