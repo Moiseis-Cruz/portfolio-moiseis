@@ -22,12 +22,12 @@ export const About = () => {
 
                 <ContentDescription>
                     <ListSkills>
-                        <li><FaReact /> React js</li>
-                        <li><IoLogoJavascript /> JavaScript</li>
-                        <li><FaCss3Alt /> CSS</li>
-                        <li><FaHtml5 /> HTML</li>
-                        <li><FaGithub /> Github</li>
-                        <li><FaGitAlt /> Git</li>
+                        <li><FaReact /> </li>
+                        <li><IoLogoJavascript /> </li>
+                        <li><FaCss3Alt /> </li>
+                        <li><FaHtml5 /> </li>
+                        <li><FaGithub /> </li>
+                        <li><FaGitAlt /> </li>
                     </ListSkills>
 
                     <PersonalDescription>| Quem sou eu</PersonalDescription>
