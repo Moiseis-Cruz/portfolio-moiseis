@@ -32,11 +32,11 @@ export const About = () => {
 
                     <PersonalDescription>| Quem sou eu</PersonalDescription>
 
-                    <p>Me chamo Moiseis Cruz, tenho 33 anos e minha paixão por programação começou na infância. Com três anos de experiência em desenvolvimento, me especializei em Front-end. Destaco-me pela habilidade única de integrar programação de design, contribuindo tanto para o desenvolvimento de códigos eficientes quanto para a criação de interfaces intuitivas e atraentes. Acredito firmemente que a combinação de estética e funcionalidade resulta em experiências oline verdadeiramente memoráveis.</p>
+                    <MyDescription>Me chamo Moiseis Cruz, tenho 33 anos e minha paixão por programação começou na infância. Com três anos de experiência em desenvolvimento, me especializei em Front-end. Destaco-me pela habilidade única de integrar programação de design, contribuindo tanto para o desenvolvimento de códigos eficientes quanto para a criação de interfaces intuitivas e atraentes. Acredito firmemente que a combinação de estética e funcionalidade resulta em experiências oline verdadeiramente memoráveis.</MyDescription>
 
                     <PersonalDescription>| Principal Tecnologia</PersonalDescription>
 
-                    <p>Eu sou apaixonado por JavaScript, minha ferramenta predileta, e busco diariamente novas formas de aprimorar minhas capacidades. Essa linguagem versátil me motiva a criar aplicações dinâmicas e interativas, proporcionando uma experiência envolvente para o usuários. Atualmente, atuo como freelancer, onde abraço a diversidade de projetos e enfrento desafio que constantemente estimulam meu crescimento profissional, incentivando minha busca contínua por aprendizado.</p>
+                    <MyDescription>Eu sou apaixonado por JavaScript, minha ferramenta predileta, e busco diariamente novas formas de aprimorar minhas capacidades. Essa linguagem versátil me motiva a criar aplicações dinâmicas e interativas, proporcionando uma experiência envolvente para o usuários. Atualmente, atuo como freelancer, onde abraço a diversidade de projetos e enfrento desafio que constantemente estimulam meu crescimento profissional, incentivando minha busca contínua por aprendizado.</MyDescription>
                 </ContentDescription>
             </ContainerAbout>
         </section>
@@ -86,11 +86,16 @@ const ListSkills = styled.ul`
 
 const ContentDescription = styled.div`
     background-color: darkblue;
-    width: 50%;
+    max-width: 500px;
 `
 
 const PersonalDescription = styled.h3`
     font-size: 2rem;
     font-weight: 500;
     margin-top: 25px;
+`
+
+const MyDescription = styled.p`
+    font-size: 1rem;
+    margin-top: 15px;
 `
