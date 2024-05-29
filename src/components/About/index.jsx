@@ -49,7 +49,6 @@ const Subtitle = styled.h2`
 `
 
 const ContainerAbout = styled.div`
-    /* background-color: darkcyan; */
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -60,12 +59,10 @@ const TitleDescription = styled.h3`
     font-size: 2rem;
     font-weight: 500;
     max-width: 350px;
-    /* margin-top: 15px; */
 `
 
 const Description = styled.p`
     font-size: 1.2rem;
-    /* background-color: gray; */
     max-width: 22rem;
     margin-top: 15px;
 `
@@ -86,7 +83,6 @@ const ListSkills = styled.ul`
 `
 
 const ContentDescription = styled.div`
-    /* background-color: darkblue; */
     max-width: 500px;
 `
 
