@@ -16,7 +16,7 @@ export const About = () => {
                     <Description>Essas são as principais ferramentas e habilidades que eu trabalho</Description>
 
                     <ContainerImageAbout>
-                        <img src={BgMyProfile} alt="" />
+                        <img src={BgMyProfile} alt="Foto do perfil" />
                     </ContainerImageAbout>
                 </div>
 
@@ -67,12 +67,18 @@ const TitleDescription = styled.h3`
     font-size: 2rem;
     font-weight: 500;
     max-width: 350px;
-`
+    @media (max-width: 1024px) {
+        margin: 15px auto 0;
+    }
+    `
 
 const Description = styled.p`
     font-size: 1.2rem;
     max-width: 22rem;
     margin-top: 15px;
+    @media (max-width: 1024px) {
+        margin: 15px auto 0;
+    }
 `
 
 const ContainerImageAbout = styled.div`
@@ -104,4 +110,7 @@ const MyDescription = styled.p`
     font-size: 1.2rem;
     margin-top: 15px;
     padding-left: 15px;
+    @media (max-width: 1024px) {
+        padding-left: 0;
+    }
 `
