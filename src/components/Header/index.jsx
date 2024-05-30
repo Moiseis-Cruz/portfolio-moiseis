@@ -7,7 +7,6 @@ export const Header = () => {
 
             <nav>
                 <ListSections>
-                    <li><BtnContact href="">Início</BtnContact></li>
                     <li><BtnContact href="">Sobre Mim</BtnContact></li>
                     <li><BtnContact href="">Habilidades</BtnContact></li>
                     <li><BtnContact href="">Projetos</BtnContact></li>

@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 export const About = () => {
     return(
-        <section>
+        <section style={{padding: "40px 0"}}>
             <Subtitle>Sobre.</Subtitle>
 
             <ContainerAbout>
