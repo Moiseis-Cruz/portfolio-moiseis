@@ -32,7 +32,7 @@ export const About = () => {
 
                     <PersonalDescription>| Quem sou eu</PersonalDescription>
 
-                    <MyDescription>Me chamo Moiseis Cruz, tenho 33 anos e minha paixão por programação começou na infância. Com três anos de experiência em desenvolvimento, me especializei em Front-end. Destaco-me pela habilidade única de integrar programação de design, contribuindo tanto para o desenvolvimento de códigos eficientes quanto para a criação de interfaces intuitivas e atraentes. Acredito firmemente que a combinação de estética e funcionalidade resulta em experiências oline verdadeiramente memoráveis.</MyDescription>
+                    <MyDescription>Me chamo Moiseis Cruz, tenho 33 anos e minha paixão por programação começou na infância. Com dois anos de experiência em desenvolvimento, me especializei em Front-end. Destaco-me pela habilidade única de integrar programação de design, contribuindo tanto para o desenvolvimento de códigos eficientes quanto para a criação de interfaces intuitivas e atraentes. Acredito firmemente que a combinação de estética e funcionalidade resulta em experiências online verdadeiramente memoráveis.</MyDescription>
 
                     <PersonalDescription>| Principal Tecnologia</PersonalDescription>
 
@@ -60,6 +60,7 @@ const ContainerAbout = styled.div`
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 0 10px;
     }
 `
 

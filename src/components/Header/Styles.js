@@ -24,6 +24,9 @@ export const Title = styled.h1`
 export const ListSections = styled.ul`
     display: flex;
     gap: 5px;
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 export const BtnContact = styled.a`
