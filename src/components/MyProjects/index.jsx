@@ -1,3 +1,5 @@
+import { Card } from "../Card";
+
 export const MyProjects = () => {
     return(
         <section>
@@ -8,6 +10,8 @@ export const MyProjects = () => {
             <div>
                 
             </div>
+
+            <Card />
         </section>
     )
 };
