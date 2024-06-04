@@ -10,4 +10,4 @@ export const MyProjects = () => {
             </div>
         </section>
     )
-}
+};
