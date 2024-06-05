@@ -7,7 +7,7 @@ export const MyProjects = () => {
         <SectionProjects>
             <Subtitle>Meus Projetos</Subtitle>
 
-            <p>Aqui estão os meus principais projetos e mais recentes. Aqui você poderá navegar por eles para conhecer melhor o meu trabalho. 😊</p>
+            <DescriptionProjects>Aqui estão os meus principais projetos e mais recentes. Aqui você poderá navegar por eles para conhecer melhor o meu trabalho. 😊</DescriptionProjects>
 
             <CardsContainer>
                 
@@ -69,15 +69,23 @@ export const MyProjects = () => {
 };
 
 const SectionProjects = styled.section`
-    background-color: #f1c592;
+    /* background-color: #f1c592; */
     padding-top: 40px;
+    text-align: center;
 `
 
 const Subtitle = styled.h2`
     font-size: 4.5rem;
     font-weight: 500;
     margin-left: 45px;
-    text-align: center;
+    /* text-align: center; */
+`
+
+const DescriptionProjects = styled.p`
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 550px;
+
 `
 
 const CardsContainer = styled.div`
