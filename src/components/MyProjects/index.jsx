@@ -19,8 +19,8 @@ export const MyProjects = () => {
                     <p>Projeto com: React.js e API.</p>
 
                     <ButtonsContainer>
-                        <a href="https://rick-and-morty-5bdvfn49a-moiseis-cruzs-projects.vercel.app/" target="_blank">Projeto (live)</a>
-                        <a href="https://github.com/Moiseis-Cruz/rick-and-morty" target="_blank">Repositório</a>
+                        <AnchorBtn href="https://rick-and-morty-5bdvfn49a-moiseis-cruzs-projects.vercel.app/" target="_blank">Projeto (live)</AnchorBtn>
+                        <AnchorBtn href="https://github.com/Moiseis-Cruz/rick-and-morty" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
 
@@ -54,7 +54,6 @@ const CardsContainer = styled.div`
     justify-content: center;
     place-content: center;
     align-items: center;
-    background-color: #2967cb;
     padding: 50px 0;
     gap: 15px;
 `
@@ -73,9 +72,24 @@ const CardDescription = styled.p`
 `
 
 const ButtonsContainer = styled.div`
-    background-color: darkblue;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-top: 5px;
+`
+
+const AnchorBtn = styled.a`
+    width: 160px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid #581051;
+    background-color: #b688dd;
 `
