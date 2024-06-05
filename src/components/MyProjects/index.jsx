@@ -18,50 +18,12 @@ export const MyProjects = () => {
 
                     <p>Projeto com: React.js e API.</p>
 
-                    <div>
+                    <ButtonsContainer>
                         <a href="https://rick-and-morty-5bdvfn49a-moiseis-cruzs-projects.vercel.app/" target="_blank">Projeto (live)</a>
                         <a href="https://github.com/Moiseis-Cruz/rick-and-morty" target="_blank">Repositório</a>
-                    </div>
+                    </ButtonsContainer>
                 </Card>
 
-                <Card>
-                    <img src="" alt="" />
-                    <h2>Título do Card</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni minima nostrum inventore consequatur cumque cupiditate nam officia sapiente tempora illo repudiandae, eos blanditiis nihil! Saepe provident sed laudantium quas.</p>
-
-                    <p>Tecnologias: HTML, CSS, JS</p>
-
-                    <div>
-                        <a href="/">Projeto (live)</a>
-                        <a href="/">Repositório</a>
-                    </div>
-                </Card>
-
-                <Card>
-                    <img src="" alt="" />
-                    <h2>Título do Card</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni minima nostrum inventore consequatur cumque cupiditate nam officia sapiente tempora illo repudiandae, eos blanditiis nihil! Saepe provident sed laudantium quas.</p>
-
-                    <p>Tecnologias: HTML, CSS, JS</p>
-
-                    <div>
-                        <a href="/">Projeto (live)</a>
-                        <a href="/">Repositório</a>
-                    </div>
-                </Card>
-
-                <Card>
-                    <img src="" alt="" />
-                    <h2>Título do Card</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni minima nostrum inventore consequatur cumque cupiditate nam officia sapiente tempora illo repudiandae, eos blanditiis nihil! Saepe provident sed laudantium quas.</p>
-
-                    <p>Tecnologias: HTML, CSS, JS</p>
-
-                    <div>
-                        <a href="/">Projeto (live)</a>
-                        <a href="/">Repositório</a>
-                    </div>
-                </Card>
             </CardsContainer>
 
         </SectionProjects>
@@ -108,4 +70,12 @@ const CardDescription = styled.p`
     height: 90px;
     padding-left: 5px;
     border: 3px solid #581051;
+`
+
+const ButtonsContainer = styled.div`
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 `
