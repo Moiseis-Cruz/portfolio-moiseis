@@ -5,7 +5,7 @@ import GifRAM from "../../assets/gifs/RAM.gif"
 export const MyProjects = () => {
     return(
         <SectionProjects>
-            <h2>Meus Projetos</h2>
+            <Subtitle>Meus Projetos</Subtitle>
 
             <p>Aqui estão os meus principais projetos e mais recentes. Aqui você poderá navegar por eles para conhecer melhor o meu trabalho. 😊</p>
 
@@ -70,6 +70,14 @@ export const MyProjects = () => {
 
 const SectionProjects = styled.section`
     background-color: #f1c592;
+    padding-top: 40px;
+`
+
+const Subtitle = styled.h2`
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-left: 45px;
+    text-align: center;
 `
 
 const CardsContainer = styled.div`
