@@ -7,7 +7,7 @@ import styled from "styled-components";
 export const About = () => {
     return(
         <section style={{padding: "40px 0"}}>
-            <Subtitle>Sobre.</Subtitle>
+            <Subtitle>Sobre mim...</Subtitle>
 
             <ContainerAbout>
                 <div>
@@ -46,7 +46,9 @@ export const About = () => {
 const Subtitle = styled.h2`
     font-size: 4.5rem;
     font-weight: 500;
+    margin-left: 45px;
     @media (max-width: 1024px) {
+        margin-left: 0;
         text-align: center;
     }
 `
