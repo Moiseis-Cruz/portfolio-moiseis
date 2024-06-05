@@ -76,13 +76,13 @@ const SectionProjects = styled.section`
 const Subtitle = styled.h2`
     font-size: 4.5rem;
     font-weight: 500;
-    margin-left: 45px;
 `
 
 const DescriptionProjects = styled.p`
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     max-width: 550px;
+    margin: 20px auto 0;
 
 `
 
@@ -98,7 +98,7 @@ const CardsContainer = styled.div`
 `
 
 const CardTitle = styled.h2`
-    margin-top: 10px;
+    margin-top: 5px;
 `
 
 const CardDescription = styled.p`
