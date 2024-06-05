@@ -8,6 +8,21 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: #120C07;
+        border-radius: 20px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #b688dd;
+        border-radius: 20px;
+        border: 3px double #581051;
+    }
+
     body {
         width: 100%;
         max-width: 1440px;
