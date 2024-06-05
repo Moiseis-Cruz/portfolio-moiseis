@@ -69,7 +69,6 @@ export const MyProjects = () => {
 };
 
 const SectionProjects = styled.section`
-    /* background-color: #f1c592; */
     padding-top: 40px;
     text-align: center;
 `
@@ -78,7 +77,6 @@ const Subtitle = styled.h2`
     font-size: 4.5rem;
     font-weight: 500;
     margin-left: 45px;
-    /* text-align: center; */
 `
 
 const DescriptionProjects = styled.p`
@@ -100,7 +98,6 @@ const CardsContainer = styled.div`
 `
 
 const CardTitle = styled.h2`
-    /* background-color: red; */
     margin-top: 10px;
 `
 
