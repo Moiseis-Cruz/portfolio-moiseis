@@ -14,7 +14,7 @@ export const MyProjects = () => {
                 <Card>
                     <img src={GifRAM} alt="" />
                     <CardTitle>Rick and Morty</CardTitle>
-                    <p>Bem-vindo a mundo de Rick and Morty. Este é um projeto pessoal que desenvolvi para testar as minhas habilidades com React.js e aulgumas <i>lib</i> que eu aprendi a trabalhar. Como por exemplo, <i>Styled-components</i>: Para estilizar a aplicação. <i>React-Router</i>: Para acessar mais informações de cada card. <i>React-icons</i>: Para utilizar ícones da biblioteca do React.</p>
+                    <CardDescription>Bem-vindo a mundo de Rick and Morty. Este é um projeto pessoal que desenvolvi para testar as minhas habilidades com React.js e aulgumas <i>lib</i> que eu aprendi a trabalhar. Como por exemplo, <i>Styled-components</i>: Para estilizar a aplicação. <i>React-Router</i>: Para acessar mais informações de cada card. <i>React-icons</i>: Para utilizar ícones da biblioteca do React.</CardDescription>
 
                     <p>Projeto com: React.js e API.</p>
 
@@ -84,6 +84,15 @@ const CardsContainer = styled.div`
 `
 
 const CardTitle = styled.h2`
-    background-color: red;
+    /* background-color: red; */
     margin-top: 10px;
+`
+
+const CardDescription = styled.p`
+    text-align: left;
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 90px;
+    padding-left: 5px;
+    border: 3px solid #581051;
 `
