@@ -3,6 +3,7 @@ import { Card } from "../Card";
 import GifRAM from "../../assets/gifs/RAM.gif";
 import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif";
 import GifPricingComponent from "../../assets/gifs/pricing-component.gif";
+import GifCodeGenerator from "../../assets/gifs/qr-code-generator.gif";
 
 export const MyProjects = () => {
     return(
@@ -49,6 +50,19 @@ export const MyProjects = () => {
                     <ButtonsContainer>
                         <AnchorBtn href="https://moiseis-cruz.github.io/pricing-component/" target="_blank">Projeto (live)</AnchorBtn>
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/pricing-component" target="_blank">Repositório</AnchorBtn>
+                    </ButtonsContainer>
+                </Card>
+                
+                <Card>
+                    <img src={GifCodeGenerator} alt="Projeto QR Code Generator" />
+                    <CardTitle>QR-Code Generator</CardTitle>
+                    <CardDescription>Este projeto gera um QR-Code ao digitar algo no campo. Depois é só clicar no botão ou teclar enter no próprio campo de digitação.</CardDescription>
+
+                    <p>Projeto com: HTML, CSS, JS & API.</p>
+
+                    <ButtonsContainer>
+                        <AnchorBtn href="https://moiseis-cruz.github.io/qr-code-generator/" target="_blank">Projeto (live)</AnchorBtn>
+                        <AnchorBtn href="https://github.com/Moiseis-Cruz/qr-code-generator" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
 
