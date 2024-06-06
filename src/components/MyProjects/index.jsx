@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Card } from "../Card";
-import GifRAM from "../../assets/gifs/RAM.gif"
+import GifRAM from "../../assets/gifs/RAM.gif";
+import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif"
 
 export const MyProjects = () => {
     return(
@@ -21,6 +22,19 @@ export const MyProjects = () => {
                     <ButtonsContainer>
                         <AnchorBtn href="https://rick-and-morty-5bdvfn49a-moiseis-cruzs-projects.vercel.app/" target="_blank">Projeto (live)</AnchorBtn>
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/rick-and-morty" target="_blank">Repositório</AnchorBtn>
+                    </ButtonsContainer>
+                </Card>
+                
+                <Card>
+                    <img src={GifGithubUserSearcher} alt="" />
+                    <CardTitle>Finder GitHub User</CardTitle>
+                    <CardDescription>O Finder GitHub User é um desafio para mostrar o meu conhecimento em trabalhar, principalmente com JavaScript e APIs, e, renderizar os métodos solicitados na tela. Esse métodos renderizado são algumas informações sobre usuários do Github que são buscados através do campo de procura. Se o usuário procurado não existir, apresentará uma mensagem especifica indicando a não existência.</CardDescription>
+
+                    <p>Projeto com: HTML, CSS, JS e API.</p>
+
+                    <ButtonsContainer>
+                        <AnchorBtn href="https://github-user-searcher-49iehgol0-moiseis-cruzs-projects.vercel.app/" target="_blank">Projeto (live)</AnchorBtn>
+                        <AnchorBtn href="https://github.com/Moiseis-Cruz/github-user-searcher" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
 
