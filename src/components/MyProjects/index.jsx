@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Card } from "../Card";
 import GifRAM from "../../assets/gifs/RAM.gif";
-import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif"
+import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif";
+import GifPricingComponent from "../../assets/gifs/pricing-component.gif";
 
 export const MyProjects = () => {
     return(
@@ -35,6 +36,19 @@ export const MyProjects = () => {
                     <ButtonsContainer>
                         <AnchorBtn href="https://github-user-searcher-49iehgol0-moiseis-cruzs-projects.vercel.app/" target="_blank">Projeto (live)</AnchorBtn>
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/github-user-searcher" target="_blank">Repositório</AnchorBtn>
+                    </ButtonsContainer>
+                </Card>
+                
+                <Card>
+                    <img src={GifPricingComponent} alt="Imagem do projeto Pricing Component" />
+                    <CardTitle>Pricing Component With Toggle</CardTitle>
+                    <CardDescription>Desafio do Frontend Mentor de um Princing Component com um botão que alterna entre as opções de 3 opções de planos, Sendo que esses planos podem ser anuais ou mensais. Que usa um botão para alternar entre eles. <br/> Para selecionar os pagamentos anuais/mensais usei um evento de Click em um input do tipo checkbox, que adiciona visibilidade a uma seção e remove de outra, e vice-versa.</CardDescription>
+
+                    <p>Projeto com: HTML, CSS, JS.</p>
+
+                    <ButtonsContainer>
+                        <AnchorBtn href="https://moiseis-cruz.github.io/pricing-component/" target="_blank">Projeto (live)</AnchorBtn>
+                        <AnchorBtn href="https://github.com/Moiseis-Cruz/pricing-component" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
 
