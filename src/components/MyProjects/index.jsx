@@ -4,6 +4,7 @@ import GifRAM from "../../assets/gifs/RAM.gif";
 import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif";
 import GifPricingComponent from "../../assets/gifs/pricing-component.gif";
 import GifCodeGenerator from "../../assets/gifs/qr-code-generator.gif";
+import GifAdviceGenerator from "../../assets/gifs/advice-generator.gif"
 
 export const MyProjects = () => {
     return(
@@ -63,6 +64,19 @@ export const MyProjects = () => {
                     <ButtonsContainer>
                         <AnchorBtn href="https://moiseis-cruz.github.io/qr-code-generator/" target="_blank">Projeto (live)</AnchorBtn>
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/qr-code-generator" target="_blank">Repositório</AnchorBtn>
+                    </ButtonsContainer>
+                </Card>
+                
+                <Card>
+                    <img src={GifAdviceGenerator} alt="Imagem do projeto Advice Generator" />
+                    <CardTitle>Advice Generator</CardTitle>
+                    <CardDescription>Projeto proposto pelo curso DevQuest, do Frontend Mentor, para testar as minhas habilidades estudadas até então. <br/> Um gerador de conselhos aleatórios onde é gerado um novo conselho ao clicar no botão em formato circular com um dado centralizado nele.</CardDescription>
+
+                    <p>Projeto com: HTML, CSS, JS e API.</p>
+
+                    <ButtonsContainer>
+                        <AnchorBtn href="https://moiseis-cruz.github.io/advice-generator-app/" target="_blank">Projeto (live)</AnchorBtn>
+                        <AnchorBtn href="https://github.com/Moiseis-Cruz/advice-generator-app" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
 
