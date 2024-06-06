@@ -13,7 +13,7 @@ export const MyProjects = () => {
             <CardsContainer>
                 
                 <Card>
-                    <img src={GifRAM} alt="" />
+                    <img src={GifRAM} alt="Imagem do projeto Rick and Morty" />
                     <CardTitle>Rick and Morty</CardTitle>
                     <CardDescription>Bem-vindo a mundo de Rick and Morty. Este é um projeto pessoal que desenvolvi para testar as minhas habilidades com React.js e aulgumas <i>lib</i> que eu aprendi a trabalhar. Como por exemplo, <i>Styled-components</i>: Para estilizar a aplicação. <i>React-Router</i>: Para acessar mais informações de cada card. <i>React-icons</i>: Para utilizar ícones da biblioteca do React.</CardDescription>
 
@@ -26,7 +26,7 @@ export const MyProjects = () => {
                 </Card>
                 
                 <Card>
-                    <img src={GifGithubUserSearcher} alt="" />
+                    <img src={GifGithubUserSearcher} alt="Imagem do projeto Finder GitHub User" />
                     <CardTitle>Finder GitHub User</CardTitle>
                     <CardDescription>O Finder GitHub User é um desafio para mostrar o meu conhecimento em trabalhar, principalmente com JavaScript e APIs, e, renderizar os métodos solicitados na tela. Esse métodos renderizado são algumas informações sobre usuários do Github que são buscados através do campo de procura. Se o usuário procurado não existir, apresentará uma mensagem especifica indicando a não existência.</CardDescription>
 
