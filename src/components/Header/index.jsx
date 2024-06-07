@@ -7,9 +7,9 @@ export const Header = () => {
 
             <nav>
                 <ListSections>
-                    <li><BtnContact href="">Sobre Mim</BtnContact></li>
+                    <li><BtnContact href="#about">Sobre Mim</BtnContact></li>
                     <li><BtnContact href="">Habilidades</BtnContact></li>
-                    <li><BtnContact href="">Projetos</BtnContact></li>
+                    <li><BtnContact href="#my-projects">Projetos</BtnContact></li>
                 </ListSections>
             </nav>
         </MyHeader>
