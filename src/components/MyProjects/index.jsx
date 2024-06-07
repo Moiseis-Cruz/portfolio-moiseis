@@ -8,7 +8,7 @@ import GifAdviceGenerator from "../../assets/gifs/advice-generator.gif"
 
 export const MyProjects = () => {
     return(
-        <SectionProjects>
+        <SectionProjects id="my-projects">
             <Subtitle>Meus Projetos</Subtitle>
 
             <DescriptionProjects>Aqui estão os meus principais projetos e mais recentes. Aqui você poderá navegar por eles para conhecer melhor o meu trabalho. 😊</DescriptionProjects>
