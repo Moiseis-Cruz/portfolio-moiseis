@@ -1,3 +1,6 @@
+import { FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
+
+
 export const Footer = () => {
     return(
         <footer>
@@ -20,10 +23,10 @@ export const Footer = () => {
                     <p>me siga</p>
 
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><a href=""> <FaLinkedin /> </a></li>
+                        <li><a href=""> <FaGithub /> </a></li>
+                        <li><a href=""> <FaDiscord /> </a></li>
+                        {/* <li><a href="">rede social</a></li> */}
                     </ul>
                 </div>
             </div>
