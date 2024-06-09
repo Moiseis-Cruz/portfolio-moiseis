@@ -1,6 +1,5 @@
 import { FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
 
-
 export const Footer = () => {
     return(
         <footer>
