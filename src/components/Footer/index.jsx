@@ -1,10 +1,11 @@
 import { FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
+import styled from "styled-components";
 
 export const Footer = () => {
     return(
         <footer>
             <div>
-                <h2>Logo</h2>
+                <FooterLogo>MC</FooterLogo>
 
                 <div>
                     <p>Se desejar conversar comigo, por favor não hesite e me envie uma mensagem nas redes sociais.</p>
@@ -32,3 +33,15 @@ export const Footer = () => {
         </footer>
     )
 };
+
+const FooterLogo = styled.h2`
+    width: 120px;
+    height: 120px;
+    font-size: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    border: 5px solid rgba(255, 255, 255, 0.87);
+`
