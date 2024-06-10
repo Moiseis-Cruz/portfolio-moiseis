@@ -10,7 +10,7 @@ export const Footer = () => {
                 <div>
                     <FooterMessage>Se desejar conversar comigo, por favor não hesite e me envie uma mensagem nas redes sociais.</FooterMessage>
 
-                    <p>BeCode &#169; 2024. Alguns direitos reservados.</p>
+                    <Warning>BeCode &#169; 2024. Alguns direitos reservados.</Warning>
                 </div>
 
                 <ul>
@@ -47,5 +47,9 @@ const FooterLogo = styled.h2`
 `
 
 const FooterMessage = styled.p`
+    font-size: 1.3rem;
+`
+
+const Warning = styled.p`
     font-size: 1.3rem;
 `
