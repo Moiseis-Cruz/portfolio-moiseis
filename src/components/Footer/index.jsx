@@ -8,7 +8,7 @@ export const Footer = () => {
                 <FooterLogo>MC</FooterLogo>
 
                 <div>
-                    <p>Se desejar conversar comigo, por favor não hesite e me envie uma mensagem nas redes sociais.</p>
+                    <FooterMessage>Se desejar conversar comigo, por favor não hesite e me envie uma mensagem nas redes sociais.</FooterMessage>
 
                     <p>BeCode &#169; 2024. Alguns direitos reservados.</p>
                 </div>
@@ -44,4 +44,8 @@ const FooterLogo = styled.h2`
     align-items: center;
     text-decoration: underline;
     border: 5px solid rgba(255, 255, 255, 0.87);
+`
+
+const FooterMessage = styled.p`
+    font-size: 1.3rem;
 `
