@@ -9,7 +9,7 @@ export const MyHeader = styled.header`
     padding: 30px 40px;
 `
 
-export const Title = styled.h1`
+export const Title = styled.h2`
     width: 120px;
     height: 120px;
     font-size: 3.5rem;
