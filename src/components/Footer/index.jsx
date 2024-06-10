@@ -50,21 +50,25 @@ const FooterLogo = styled.h2`
     border: 5px solid rgba(255, 255, 255, 0.87);
 `
 
-const FooterMessage = styled.p`
-    font-size: 1.3rem;
-`
-
-const Warning = styled.p`
-    font-size: 1.3rem;
-`
-
 const FooterGrid = styled.div`
     background-color: gray;
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(3, minmax(100px, 350px));
+    grid-template-columns: repeat(3, minmax(100px, 400px));
+    grid-template-rows: 200px;
     /* place-content: center; */
     justify-content: space-between;
     padding: 10px 20px;
     /* gap: 5rem; */
+`
+
+const FooterMessage = styled.p`
+    font-size: 1rem;
+    font-weight: 500;
+    `
+
+const Warning = styled.p`
+    font-size: 1.1rem;
+    /* font-weight: 500; */
+    background-color: red;
 `
