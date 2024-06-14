@@ -55,7 +55,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     a {
-        color: #000000;
+        color: #ffffff;
         text-decoration: none;
     }
 `
