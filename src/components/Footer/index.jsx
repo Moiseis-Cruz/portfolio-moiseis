@@ -24,12 +24,12 @@ export const Footer = () => {
                     <MyContactsBox>
                         <p>me siga</p>
 
-                        <ul>
+                        <ContactList>
                             <li><a href="https://www.linkedin.com/in/mois%C3%A9s-cruz-b88990248/"> <FaLinkedin /> </a></li>
                             <li><a href="https://github.com/Moiseis-Cruz"> <FaGithub /> </a></li>
                             <li><a href="https://discord.com/channels/@me/1095845561330053131" target="_blank"> <FaDiscord /> </a></li>
                             {/* <li><a href="">rede social</a></li> */}
-                        </ul>
+                        </ContactList>
                     </MyContactsBox>
                 </FooterGrid>
 
@@ -54,7 +54,7 @@ const FooterGrid = styled.div`
     background-color: gray;
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 400px));
-    grid-template-rows: 200px;
+    grid-template-rows: 140px;
     justify-content: space-between;
     padding: 10px 20px;
     font-weight: 500;
@@ -87,6 +87,15 @@ const NavigationButtonsBox = styled.ul`
 const MyContactsBox = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 1.7rem;
+    justify-content: space-between;
+    gap: 1rem;
+    `
+
+const ContactList = styled.ul`
+    display: flex;
+    /* flex-direction: column; */
     /* align-items: center; */
     font-size: 1.7rem;
     /* justify-content: space-around; */
