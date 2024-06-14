@@ -9,11 +9,11 @@ export const Footer = () => {
 
                 <FooterGrid>
 
-                    <div>
+                    <CopyrightBox>
                         <FooterMessage>Se desejar conversar comigo, por favor não hesite e me envie uma mensagem nas redes sociais.</FooterMessage>
 
                         <Warning>BeCode &#169; 2024. Alguns direitos reservados.</Warning>
-                    </div>
+                    </CopyrightBox>
 
                     <ul>
                         <li><a href="">Projetos</a></li>
@@ -66,4 +66,11 @@ const FooterMessage = styled.p`
 
 const Warning = styled.p`
     font-size: 1.1rem;
+`
+
+const CopyrightBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 `
