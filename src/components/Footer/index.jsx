@@ -79,16 +79,16 @@ const NavigationButtonsBox = styled.ul`
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     /* justify-content: space-around; */
     gap: 1rem;
     `
 
 const MyContactsBox = styled.div`
-display: flex;
-flex-direction: column;
-/* align-items: center; */
-font-size: 1.2rem;
-/* justify-content: space-around; */
-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 1.7rem;
+    /* justify-content: space-around; */
+    gap: 1rem;
 `
