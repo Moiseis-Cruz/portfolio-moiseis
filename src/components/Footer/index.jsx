@@ -15,11 +15,11 @@ export const Footer = () => {
                         <Warning>BeCode &#169; 2024. Alguns direitos reservados.</Warning>
                     </CopyrightBox>
 
-                    <ul>
+                    <NavigationButtonsBox>
                         <li><a href="">Projetos</a></li>
                         <li><a href="">Sobre</a></li>
                         <li><a href="">Contatos</a></li>
-                    </ul>
+                    </NavigationButtonsBox>
 
                     <div>
                         <p>me siga</p>
@@ -71,6 +71,15 @@ const Warning = styled.p`
 const CopyrightBox = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    /* align-items: center; */
+    justify-content: space-between;
+    `
+
+const NavigationButtonsBox = styled.ul`
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 1.2rem;
+    /* justify-content: space-around; */
+    gap: 1rem;
 `
