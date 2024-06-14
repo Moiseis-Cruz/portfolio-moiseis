@@ -21,7 +21,7 @@ export const Footer = () => {
                         <li><a href="">Contatos</a></li>
                     </NavigationButtonsBox>
 
-                    <div>
+                    <MyContactsBox>
                         <p>me siga</p>
 
                         <ul>
@@ -30,7 +30,7 @@ export const Footer = () => {
                             <li><a href="https://discord.com/channels/@me/1095845561330053131" target="_blank"> <FaDiscord /> </a></li>
                             {/* <li><a href="">rede social</a></li> */}
                         </ul>
-                    </div>
+                    </MyContactsBox>
                 </FooterGrid>
 
             </div>
@@ -82,4 +82,13 @@ const NavigationButtonsBox = styled.ul`
     font-size: 1.2rem;
     /* justify-content: space-around; */
     gap: 1rem;
+    `
+
+const MyContactsBox = styled.div`
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+font-size: 1.2rem;
+/* justify-content: space-around; */
+gap: 1rem;
 `
