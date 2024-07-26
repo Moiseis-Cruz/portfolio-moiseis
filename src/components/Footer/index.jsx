@@ -75,16 +75,13 @@ const Warning = styled.p`
 const CopyrightBox = styled.div`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: space-between;
     `
 
 const NavigationButtonsBox = styled.ul`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     font-size: 1.7rem;
-    /* justify-content: space-around; */
     gap: 1rem;
     `
 
@@ -102,9 +99,6 @@ const MyContactsBox = styled.div`
 
 const ContactList = styled.ul`
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
     font-size: 1.7rem;
-    /* justify-content: space-around; */
     gap: 1rem;
 `
