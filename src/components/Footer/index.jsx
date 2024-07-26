@@ -58,10 +58,14 @@ const FooterGrid = styled.div`
     justify-content: space-between;
     padding: 10px 20px;
     font-weight: 500;
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, minmax(100px, 400px));
+        grid-template-rows: repeat(2, auto);
+    }
 `
 
 const FooterMessage = styled.p`
-    font-size: 1rem;
+    font-size: 1.1rem;
 `
 
 const Warning = styled.p`
@@ -91,6 +95,9 @@ const MyContactsBox = styled.div`
     font-size: 1.7rem;
     justify-content: space-between;
     gap: 1rem;
+    @media (max-width: 768px) {
+        align-items: start;
+    }
     `
 
 const ContactList = styled.ul`
