@@ -47,19 +47,23 @@ const FooterLogo = styled.h2`
     align-items: center;
     text-decoration: underline;
     border: 5px solid rgba(255, 255, 255, 0.87);
-`
+    `
 
 const FooterGrid = styled.div`
-    background-color: gray;
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 400px));
     grid-template-rows: 140px;
     justify-content: space-between;
     padding: 10px 20px;
     font-weight: 500;
+    margin-top: 40px;
     @media (max-width: 768px) {
         grid-template-columns: repeat(2, minmax(100px, 400px));
         grid-template-rows: repeat(2, auto);
+    }
+    @media (max-width: 425px) {
+        grid-template-columns: minmax(100px, 400px);
+        row-gap: 55px;
     }
 `
 
