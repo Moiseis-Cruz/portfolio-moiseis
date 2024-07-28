@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
+import { ContentFooter, FooterLogo, FooterGrid, FooterMessage, Warning, CopyrightBox, NavigationButtonsBox, MyContactsBox, ContactList } from "./styles";
 
 export const Footer = () => {
     return(
