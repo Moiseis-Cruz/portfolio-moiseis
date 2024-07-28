@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Footer = () => {
     return(
-        <footer>
+        <ContentFooter>
             <div>
                 <FooterLogo>MC</FooterLogo>
 
@@ -33,9 +33,17 @@ export const Footer = () => {
                 </FooterGrid>
 
             </div>
-        </footer>
+        </ContentFooter>
     )
 };
+
+const ContentFooter = styled.footer`
+    padding: 10px 20px;
+    @media (max-width: 425px) {
+        padding: 30px 20px;
+        
+    }
+`
 
 const FooterLogo = styled.h2`
     width: 120px;
@@ -54,7 +62,6 @@ const FooterGrid = styled.div`
     grid-template-columns: repeat(3, minmax(100px, 400px));
     grid-template-rows: 140px;
     justify-content: space-between;
-    padding: 10px 20px;
     font-weight: 500;
     margin-top: 40px;
     @media (max-width: 768px) {
