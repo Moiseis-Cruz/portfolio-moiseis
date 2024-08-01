@@ -16,8 +16,8 @@ export const Footer = () => {
                     </CopyrightBox>
 
                     <NavigationButtonsBox>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Sobre</a></li>
+                        <li><a href="#my-projects">Projetos</a></li>
+                        <li><a href="#about">Sobre</a></li>
                         <li><a href="">Contatos</a></li>
                     </NavigationButtonsBox>
 
