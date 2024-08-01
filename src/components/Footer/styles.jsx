@@ -30,6 +30,7 @@ export const FooterGrid = styled.div`
     @media (max-width: 768px) {
         grid-template-columns: repeat(2, minmax(100px, 400px));
         grid-template-rows: repeat(2, auto);
+        gap: 35px;
     }
     @media (max-width: 425px) {
         grid-template-columns: minmax(100px, 400px);
