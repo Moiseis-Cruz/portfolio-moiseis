@@ -1,4 +1,5 @@
 import { About } from './components/About';
+import { Certifications } from './components/Certifications';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Certifications />
       <MyProjects />
       <Footer />
     </>
