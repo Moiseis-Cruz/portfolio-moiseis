@@ -9,7 +9,6 @@ export const Card = ({children}) => {
 };
 
 const Container = styled.div`
-    /* background-color: aqua; */
     background: linear-gradient(0deg, rgba(227, 10, 206,1) 35%, rgba(119, 19, 204,1));
     max-width: 400px;
     width: 100%;
