@@ -10,6 +10,10 @@ export const Header = () => {
         setIsOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setIsOpen(false)
+    }
+
     return(
         <MyHeader>
             <Title>MC</Title>
@@ -24,9 +28,9 @@ export const Header = () => {
 
             <Nav isOpen={isOpen}>
                 <ListSections>
-                    <li><BtnContact href="#about">Sobre Mim</BtnContact></li>
-                    <li><BtnContact href="">Habilidades</BtnContact></li>
-                    <li><BtnContact href="#my-projects">Projetos</BtnContact></li>
+                    <li><BtnContact href="#about" onClick={closeMenu}>Sobre Mim</BtnContact></li>
+                    <li><BtnContact href="" onClick={closeMenu}>Habilidades</BtnContact></li>
+                    <li><BtnContact href="#my-projects" onClick={closeMenu}>Projetos</BtnContact></li>
                 </ListSections>
             </Nav>
         </MyHeader>
