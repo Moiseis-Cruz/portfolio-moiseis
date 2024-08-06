@@ -36,16 +36,16 @@ export const Hamburger = styled.div`
         transform-origin: 1px;
 
         &:nth-child(1){
-            transform: ${({ isOpen }) => (isOpen ? 'rotate(45deg)' : 'rotate(0)')};
+            transform: ${({ $isOpen }) => ($isOpen ? 'rotate(45deg)' : 'rotate(0)')};
         }
 
         &:nth-child(2) {
-            opacity: ${({ isOpen }) => (isOpen ? '0' : '1')};
-            transform: ${({ isOpen }) => (isOpen ? 'translateX(20px)' : 'translateX(0)')};
+            opacity: ${({ $isOpen }) => ($isOpen ? '0' : '1')};
+            transform: ${({ $isOpen }) => ($isOpen ? 'translateX(20px)' : 'translateX(0)')};
         }
 
         &:nth-child(3) {
-            transform: ${({ isOpen }) => (isOpen ? 'rotate(-45deg)' : 'rotate(0)')};
+            transform: ${({ $isOpen }) => ($isOpen ? 'rotate(-45deg)' : 'rotate(0)')};
         }
     }
 
@@ -56,7 +56,7 @@ export const Hamburger = styled.div`
 
 export const Nav = styled.nav`
     @media (max-width: 768px) {
-        display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
+        display: ${({ $isOpen }) => ($isOpen ? 'flex' : 'none')};
         flex-direction: column;
         position: absolute;
         top: 80px;

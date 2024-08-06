@@ -17,7 +17,7 @@ export const Header = () => {
         <MyHeader>
             <Title>MC</Title>
 
-            <Hamburger isOpen={isOpen} onClick={togglerMenu}>
+            <Hamburger $isOpen={isOpen} onClick={togglerMenu}>
 
                 <div></div>
                 <div></div>
@@ -25,7 +25,7 @@ export const Header = () => {
 
             </Hamburger>
 
-            <Nav isOpen={isOpen}>
+            <Nav $isOpen={isOpen}>
                 <ListSections>
                     <li><BtnContact href="#about" onClick={closeMenu}>Sobre Mim</BtnContact></li>
                     <li><BtnContact href="" onClick={closeMenu}>Habilidades</BtnContact></li>
