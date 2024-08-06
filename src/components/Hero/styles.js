@@ -15,6 +15,9 @@ export const Container = styled.section`
 
 export const Title = styled.h1`
     font-size: 3.5rem;
+    @media (max-width: 425px) {
+        font-size: 2.5rem;
+    }
 `
 
 export const ContentImg = styled.div`
