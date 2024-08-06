@@ -51,6 +51,9 @@ const Subtitle = styled.h2`
         margin-left: 0;
         text-align: center;
     }
+    @media (max-width: 425px) {
+        font-size: 3rem;
+    }
 `
 
 const ContainerAbout = styled.div`
