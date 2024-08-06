@@ -94,6 +94,9 @@ const SectionProjects = styled.section`
 const Subtitle = styled.h2`
     font-size: 4.5rem;
     font-weight: 500;
+    @media (max-width: 425px) {
+        font-size: 3rem;
+    }
 `
 
 const DescriptionProjects = styled.p`
