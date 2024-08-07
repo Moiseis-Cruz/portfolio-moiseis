@@ -6,7 +6,7 @@ export const Certifications = () => {
 
             <Subtitle>Minhas Certificações</Subtitle>
 
-            <p>Confira os meus principais certificados, <br/> Essenciasi para o meu desenvolvimento!</p>
+            <Message>Confira os meus principais certificados, <br/> Essenciasi para o meu desenvolvimento!</Message>
 
             <div>
 
@@ -38,5 +38,11 @@ const CertificationsSection = styled.section`
 
 const Subtitle = styled.h2`
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
+`
+
+const Message = styled.p`
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
 `
