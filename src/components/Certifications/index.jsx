@@ -1,8 +1,10 @@
+import styled from "styled-components";
+
 export const Certifications = () => {
     return(
-        <section>
+        <CertificationsSection>
 
-            <h2>Minhas Certificações</h2>
+            <Subtitle>Minhas Certificações</Subtitle>
 
             <p>Confira os meus principais certificados, <br/> Essenciasi para o meu desenvolvimento!</p>
 
@@ -25,6 +27,16 @@ export const Certifications = () => {
 
             </div>
 
-        </section>
+        </CertificationsSection>
     )
 };
+
+const CertificationsSection = styled.section`
+    background-color: brown;
+    padding: 50px 0;
+    `
+
+const Subtitle = styled.h2`
+    text-align: center;
+    font-size: 3.5rem;
+`
