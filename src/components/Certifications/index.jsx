@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CertificadoLogicaProgramacao from "../../assets/imgs/logica-programacao-js.png"
 
 export const Certifications = () => {
     return(
@@ -10,17 +11,16 @@ export const Certifications = () => {
 
             <ul>
                 <li>
-                    <div>
+                    <div style={{width: "250px", backgroundColor: "grey", border: "2px solid #af46"}}>
                         <h3>julho, 2024</h3>
 
-                        <p>Nome do Certificado</p>
+                        <img src={CertificadoLogicaProgramacao} alt="" />
 
-                        <p>Descrição do curso concluido. Horas de aula e seu objetivo.</p>
+                        <p>Lógica  de Programação</p>
+
+                        <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
                     </div>
                 </li>
-                <li>Certificado 2</li>
-                <li>Certificado 3</li>
-                <li>Certificado 4</li>
             </ul>
 
         </CertificationsSection>
