@@ -9,9 +9,9 @@ export const Certifications = () => {
 
             <Message>Confira os meus principais certificados, <br/> Essenciasi para o meu desenvolvimento!</Message>
 
-            <ul>
+            <CertificatesList>
                 <li>
-                    <div style={{width: "250px", backgroundColor: "grey", border: "2px solid #af46"}}>
+                    <Certificate>
                         <h3>julho, 2024</h3>
 
                         <img src={CertificadoLogicaProgramacao} alt="" />
@@ -19,16 +19,27 @@ export const Certifications = () => {
                         <p>Lógica  de Programação</p>
 
                         <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
-                    </div>
+                    </Certificate>
                 </li>
-            </ul>
+                <li>
+                    <Certificate>
+                        <h3>julho, 2024</h3>
+
+                        <img src={CertificadoLogicaProgramacao} alt="" />
+
+                        <p>Lógica  de Programação</p>
+
+                        <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
+                    </Certificate>
+                </li>
+            </CertificatesList>
 
         </CertificationsSection>
     )
 };
 
 const CertificationsSection = styled.section`
-    background-color: brown;
+    /* background-color: brown; */
     padding: 50px 0;
     `
 
@@ -41,4 +52,18 @@ const Message = styled.p`
     font-size: 1.2rem;
     text-align: center;
     margin-top: 15px;
+`
+
+const CertificatesList = styled.ul`
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: red; */
+    padding: 30px 0;
+`
+
+const Certificate = styled.div`
+    width: 250px;
+    background-color: grey;
+    border: 2px solid #af46;
 `
