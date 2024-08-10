@@ -56,6 +56,7 @@ const Message = styled.p`
 const CertificatesList = styled.ul`
     display: flex;
     justify-content: center;
+    margin-top: 60px;
     gap: 20px;
     padding: 30px 0;
 `
