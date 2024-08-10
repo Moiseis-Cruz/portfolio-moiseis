@@ -39,7 +39,6 @@ export const Certifications = () => {
 };
 
 const CertificationsSection = styled.section`
-    /* background-color: brown; */
     padding: 50px 0;
     `
 
@@ -58,7 +57,6 @@ const CertificatesList = styled.ul`
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* background-color: red; */
     padding: 30px 0;
 `
 
