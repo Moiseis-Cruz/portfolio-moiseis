@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CertificadoLogicaProgramacao from "../../assets/imgs/logica-programacao-js.png"
+import CertificadoChatGPT from "../../assets/imgs/Curso-ChatGPT.png"
 
 export const Certifications = () => {
     return(
@@ -25,9 +26,9 @@ export const Certifications = () => {
                     <Certificate>
                         <h3>julho, 2024</h3>
 
-                        <img src={CertificadoLogicaProgramacao} alt="" />
+                        <img src={CertificadoChatGPT} alt="" />
 
-                        <p>Lógica  de Programação</p>
+                        <p>Curso ChatGPT</p>
 
                         <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
                     </Certificate>
