@@ -16,33 +16,35 @@ export const Certifications = () => {
                     <Certificate>
                         <h3>julho, 2024</h3>
 
-                        <img src={CertificadoLogicaProgramacao} alt="" />
+                        <img src={CertificadoLogicaProgramacao} alt="Certificado Lógica de Programação" />
 
                         <p>Lógica  de Programação</p>
 
                         <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
                     </Certificate>
                 </li>
+
                 <li>
                     <Certificate>
                         <h3>julho, 2024</h3>
 
-                        <img src={CertificadoChatGPT} alt="" />
+                        <img src={CertificadoChatGPT} alt="Certificado ChatGPT" />
 
                         <p>Curso ChatGPT</p>
 
-                        <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
+                        <p>ChatGPT: 8 horas. Ensina a como otimizar buscas para obter melhores resultados de mais qualidade.</p>
                     </Certificate>
                 </li>
+
                 <li>
                     <Certificate>
                         <h3>julho, 2024</h3>
 
-                        <img src={CertificationGitbub} alt="" />
+                        <img src={CertificationGitbub} alt="Certificado Git & GitHub" />
 
                         <p>Curso Git & GitHub</p>
 
-                        <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
+                        <p>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</p>
                     </Certificate>
                 </li>
             </CertificatesList>
