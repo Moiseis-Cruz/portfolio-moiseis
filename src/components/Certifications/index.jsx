@@ -78,13 +78,21 @@ const CertificatesList = styled.ul`
 
 const Certificate = styled.div`
     width: 300px;
-    background-color: grey;
-    border: 2px solid #af46;
+    /* background-color: grey; */
+    border: 2px solid #ffffff;
     height: 400px;
+    border-radius: 8px 0 8px 0;
+    text-align: center;
+    padding: 10px;
 `
+// const CourseTitle
 
 const Description = styled.p`
     width: 100%;
     height: 100px;
     overflow-y: scroll;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: left;
 `
