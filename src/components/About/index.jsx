@@ -60,7 +60,7 @@ const ContainerAbout = styled.div`
     display: flex;
     justify-content: space-around;
     gap: 40px;
-    margin-top: 30px;
+    margin-top: 110px;
     @media (max-width: 1024px) {
         flex-direction: column;
         align-items: center;
