@@ -20,7 +20,7 @@ export const Certifications = () => {
 
                         <p>Lógica  de Programação</p>
 
-                        <p>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</p>
+                        <Description>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</Description>
                     </Certificate>
                 </li>
 
@@ -32,7 +32,7 @@ export const Certifications = () => {
 
                         <p>Curso ChatGPT</p>
 
-                        <p>ChatGPT: 8 horas. Ensina a como otimizar buscas para obter melhores resultados de mais qualidade.</p>
+                        <Description>ChatGPT: 8 horas. Ensina a como otimizar buscas para obter melhores resultados de mais qualidade.</Description>
                     </Certificate>
                 </li>
 
@@ -44,7 +44,7 @@ export const Certifications = () => {
 
                         <p>Curso Git & GitHub</p>
 
-                        <p>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</p>
+                        <Description>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</Description>
                     </Certificate>
                 </li>
             </CertificatesList>
@@ -77,7 +77,14 @@ const CertificatesList = styled.ul`
 `
 
 const Certificate = styled.div`
-    width: 250px;
+    width: 300px;
     background-color: grey;
     border: 2px solid #af46;
+    height: 400px;
+`
+
+const Description = styled.p`
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
 `
