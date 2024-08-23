@@ -14,7 +14,7 @@ export const MyProjects = () => {
             <DescriptionProjects>Aqui estão os meus principais projetos e mais recentes. Aqui você poderá navegar por eles para conhecer melhor o meu trabalho. 😊</DescriptionProjects>
 
             <CardsContainer>
-                
+
                 <Card>
                     <img src={GifRAM} alt="Imagem do projeto Rick and Morty" />
                     <CardTitle>Rick and Morty</CardTitle>
@@ -27,7 +27,7 @@ export const MyProjects = () => {
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/rick-and-morty" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
-                
+
                 <Card>
                     <img src={GifGithubUserSearcher} alt="Imagem do projeto Finder GitHub User" />
                     <CardTitle>Finder GitHub User</CardTitle>
@@ -40,7 +40,7 @@ export const MyProjects = () => {
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/github-user-searcher" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
-                
+
                 <Card>
                     <img src={GifPricingComponent} alt="Imagem do projeto Pricing Component" />
                     <CardTitle>Pricing Component With Toggle</CardTitle>
@@ -53,7 +53,7 @@ export const MyProjects = () => {
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/pricing-component" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
-                
+
                 <Card>
                     <img src={GifCodeGenerator} alt="Projeto QR Code Generator" />
                     <CardTitle>QR-Code Generator</CardTitle>
@@ -66,7 +66,7 @@ export const MyProjects = () => {
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/qr-code-generator" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
                 </Card>
-                
+
                 <Card>
                     <img src={GifAdviceGenerator} alt="Imagem do projeto Advice Generator" />
                     <CardTitle>Advice Generator</CardTitle>
