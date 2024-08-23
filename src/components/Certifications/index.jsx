@@ -14,11 +14,11 @@ export const Certifications = () => {
             <CertificatesList>
                 <li>
                     <Certificate>
-                        <h3>julho, 2024</h3>
+                        <CertificationDate>julho, 2024</CertificationDate>
 
                         <img src={CertificadoLogicaProgramacao} alt="Certificado Lógica de Programação" />
 
-                        <p>Lógica  de Programação</p>
+                        <CourseTitle>Lógica  de Programação</CourseTitle>
 
                         <Description>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</Description>
                     </Certificate>
@@ -26,11 +26,11 @@ export const Certifications = () => {
 
                 <li>
                     <Certificate>
-                        <h3>julho, 2024</h3>
+                        <CertificationDate>julho, 2024</CertificationDate>
 
                         <img src={CertificadoChatGPT} alt="Certificado ChatGPT" />
 
-                        <p>Curso ChatGPT</p>
+                        <CourseTitle>Curso ChatGPT</CourseTitle>
 
                         <Description>ChatGPT: 8 horas. Ensina a como otimizar buscas para obter melhores resultados de mais qualidade.</Description>
                     </Certificate>
@@ -38,11 +38,11 @@ export const Certifications = () => {
 
                 <li>
                     <Certificate>
-                        <h3>julho, 2024</h3>
+                        <CertificationDate>julho, 2024</CertificationDate>
 
                         <img src={CertificationGitbub} alt="Certificado Git & GitHub" />
 
-                        <p>Curso Git & GitHub</p>
+                        <CourseTitle>Curso Git & GitHub</CourseTitle>
 
                         <Description>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</Description>
                     </Certificate>
@@ -70,6 +70,7 @@ const Message = styled.p`
 
 const CertificatesList = styled.ul`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 60px;
     gap: 20px;
@@ -78,14 +79,21 @@ const CertificatesList = styled.ul`
 
 const Certificate = styled.div`
     width: 300px;
-    /* background-color: grey; */
     border: 2px solid #ffffff;
     height: 400px;
     border-radius: 8px 0 8px 0;
     text-align: center;
     padding: 10px;
 `
-// const CourseTitle
+
+const CertificationDate = styled.h3`
+    text-transform: uppercase;
+    letter-spacing: 1px;
+`
+
+const CourseTitle = styled.h3`
+    letter-spacing: 1px;
+`
 
 const Description = styled.p`
     width: 100%;
@@ -93,6 +101,6 @@ const Description = styled.p`
     overflow-y: scroll;
     border: 1px solid #ffffff;
     margin-top: 5px;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
 `
