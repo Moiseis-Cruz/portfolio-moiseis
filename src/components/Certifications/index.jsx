@@ -66,14 +66,14 @@ const Message = styled.p`
 
 const CertificatesList = styled.div`
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 60px;
     gap: 20px;
     padding: 30px 0;
-    background-color: rebeccapurple;
     overflow-x: scroll;
-    max-width: 100%;
+    /* width: 1440px; */
+    height: 480px;
 `
 
 const Certificate = styled.div`
@@ -84,9 +84,9 @@ const Certificate = styled.div`
     text-align: center;
     padding: 10px;
 
-    &:nth-child(even) {
+    /* &:nth-child(even) {
         margin-top: 100px;
-    }
+    } */
 `
 
 const CertificationDate = styled.h3`
