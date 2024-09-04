@@ -12,7 +12,7 @@ export const Certifications = () => {
             <Message>Confira os meus principais certificados, <br/> Essenciasi para o meu desenvolvimento!</Message>
 
             <CertificatesList>
-                <li>
+
                     <Certificate>
                         <CertificationDate>julho, 2024</CertificationDate>
 
@@ -22,9 +22,7 @@ export const Certifications = () => {
 
                         <Description>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</Description>
                     </Certificate>
-                </li>
 
-                <li>
                     <Certificate>
                         <CertificationDate>julho, 2024</CertificationDate>
 
@@ -34,9 +32,7 @@ export const Certifications = () => {
 
                         <Description>ChatGPT: 8 horas. Ensina a como otimizar buscas para obter melhores resultados de mais qualidade.</Description>
                     </Certificate>
-                </li>
 
-                <li>
                     <Certificate>
                         <CertificationDate>julho, 2024</CertificationDate>
 
@@ -46,7 +42,7 @@ export const Certifications = () => {
 
                         <Description>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</Description>
                     </Certificate>
-                </li>
+
             </CertificatesList>
 
         </CertificationsSection>
@@ -68,13 +64,16 @@ const Message = styled.p`
     margin-top: 15px;
 `
 
-const CertificatesList = styled.ul`
+const CertificatesList = styled.div`
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     margin-top: 60px;
     gap: 20px;
     padding: 30px 0;
+    background-color: rebeccapurple;
+    overflow-x: scroll;
+    max-width: 100%;
 `
 
 const Certificate = styled.div`
@@ -84,6 +83,10 @@ const Certificate = styled.div`
     border-radius: 8px 0 8px 0;
     text-align: center;
     padding: 10px;
+
+    &:nth-child(even) {
+        margin-top: 100px;
+    }
 `
 
 const CertificationDate = styled.h3`
