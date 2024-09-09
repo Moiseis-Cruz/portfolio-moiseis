@@ -18,7 +18,7 @@ export const Title = styled.h2`
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    border: 5px solid rgba(255, 255, 255, 0.87);
+    border: 5px solid #FED8B1;
 `
 
 export const Hamburger = styled.div`
@@ -79,9 +79,10 @@ export const ListSections = styled.ul`
 `
 
 export const BtnContact = styled.a`
-    background-color: #b688dd;
+    /* background-color: #b688dd; */
+    background-color: #A67B5B;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.87);
+    /* color: ; */
     padding: 10px 20px;
     border-radius: 50px;
 
