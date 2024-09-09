@@ -24,7 +24,7 @@ export const ContentImg = styled.div`
     max-width: 450px;
     border-radius: 50%;
     padding: 15px;
-    box-shadow: inset 0 0 3px 3px rgb(119, 119, 119);
+    box-shadow: inset 0 0 3px 3px #FED8B1;
     /* @media (max-width: 375px) {
         padding: 0;
     } */
@@ -33,9 +33,9 @@ export const ContentImg = styled.div`
 export const ImgHero = styled.img`
     margin: auto;
     border-radius: 50%;
-    box-shadow: 0 0 3px 3px rgb(119, 119, 119);
+    box-shadow: 0 0 3px 3px #FED8B1;
 
-    background: linear-gradient(to right, #b688dd, #581051);
+    background: linear-gradient(to right, #ECB176, #A67B5B);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 
@@ -60,6 +60,7 @@ export const BtnContact = styled.a`
     font-size: 18px;
     padding: 10px 20px;
     font-weight: 500;
-    background-color: #b688dd;
+    /* background-color: #b688dd; */
+    background-color: #A67B5B;
     border-radius: 8px;
 `
