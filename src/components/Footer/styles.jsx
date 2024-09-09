@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContentFooter = styled.footer`
-    background-color: grey;
+    /* background-color: grey; */
     padding: 10px 20px 30px;
     @media (max-width: 425px) {
         padding: 30px 20px;
@@ -18,7 +18,7 @@ export const FooterLogo = styled.h2`
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    border: 5px solid rgba(255, 255, 255, 0.87);
+    border: 5px solid #FED8B1;
     `
 
 export const FooterGrid = styled.div`
