@@ -2,6 +2,7 @@ import styled from "styled-components";
 import CertificadoLogicaProgramacao from "../../assets/imgs/logica-programacao-js.png"
 import CertificadoChatGPT from "../../assets/imgs/Curso-ChatGPT.png"
 import CertificationGitbub from "../../assets/imgs/Curso-Git-e-GitHub.png"
+import { BiColor } from "react-icons/bi";
 
 export const Certifications = () => {
     return(
