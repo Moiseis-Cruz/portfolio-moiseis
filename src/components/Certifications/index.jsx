@@ -71,8 +71,6 @@ const CertificatesList = styled.div`
     margin-top: 60px;
     gap: 20px;
     padding: 30px 0;
-    overflow-x: scroll;
-    /* width: 1440px; */
     height: 480px;
 `
 
