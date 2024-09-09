@@ -18,9 +18,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     *::-webkit-scrollbar-thumb {
-        background-color: #b688dd;
+        background-color: #ECB176;
         border-radius: 20px;
-        border: 3px double #581051;
+        border: 3px double #6F4E37;
     }
 
     body {
@@ -36,8 +36,10 @@ export const GlobalStyle = createGlobalStyle`
         font-style: normal;
 
         color-scheme: light dark;
-        color: rgba(255, 255, 255, 0.87);
+        /* color: rgba(255, 255, 255, 0.87); */
         background-color: #242424;
+        color: #FED8B1;
+        background-color: #6F4E37;
 
         font-synthesis: none;
         text-rendering: optimizeLegibility;
@@ -55,7 +57,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     a {
-        color: #ffffff;
+        /* cores para mudanças */
+        color: #6F4E37;
+        color: #A67B5B;
+        color: #ECB176;
+        color: #F8EDE3;
+        color: #FED8B1;
+        /* Cor utilizada */
+        /* color: #ffffff; */
+        /* background-color: #A67B5B; */
         text-decoration: none;
     }
 `
