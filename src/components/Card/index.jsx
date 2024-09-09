@@ -9,12 +9,13 @@ export const Card = ({children}) => {
 };
 
 const Container = styled.div`
-    background: linear-gradient(0deg, rgba(227, 10, 206,1) 35%, rgba(119, 19, 204,1));
+    background: linear-gradient(0deg, #ECB176, #6F4E37);
     max-width: 400px;
+    color: #F8EDE3;
     width: 100%;
     min-height: 424px;
     padding: 10px;
     border-radius: 14px 0;
     text-align: center;
-    border: 5px solid #581051;
+    border: 5px solid #A67B5B;
 `
