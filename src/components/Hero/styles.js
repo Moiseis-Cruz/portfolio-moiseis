@@ -60,7 +60,6 @@ export const BtnContact = styled.a`
     font-size: 18px;
     padding: 10px 20px;
     font-weight: 500;
-    /* background-color: #b688dd; */
     background-color: #A67B5B;
     border-radius: 8px;
 `
