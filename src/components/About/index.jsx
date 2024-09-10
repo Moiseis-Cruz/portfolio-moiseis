@@ -99,7 +99,7 @@ const ListSkills = styled.ul`
     place-content: center;
     gap: 20px;
     font-size: 3rem;
-    color: #e987eb;
+    color: #F8EDE3;
 `
 
 const ContentDescription = styled.div`
