@@ -145,7 +145,6 @@ const AnchorBtn = styled.a`
     align-items: center;
     justify-content: center;
     color: #F8EDE3;
-    /* color: #FED8B1; */
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 5px;
