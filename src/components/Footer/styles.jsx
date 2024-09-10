@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContentFooter = styled.footer`
-    /* background-color: grey; */
     padding: 10px 20px 30px;
     @media (max-width: 425px) {
         padding: 30px 20px;
