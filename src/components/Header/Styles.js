@@ -79,10 +79,8 @@ export const ListSections = styled.ul`
 `
 
 export const BtnContact = styled.a`
-    /* background-color: #b688dd; */
     background-color: #A67B5B;
     font-size: 20px;
-    /* color: ; */
     padding: 10px 20px;
     border-radius: 50px;
 
