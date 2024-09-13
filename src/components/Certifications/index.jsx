@@ -100,7 +100,7 @@ const Description = styled.p`
     width: 100%;
     height: 100px;
     overflow-y: scroll;
-    border: 1px solid #ffffff;
+    border: 1px solid #F8EDE3;
     margin-top: 5px;
     padding: 5px;
     text-align: left;
