@@ -32,12 +32,9 @@ export const GlobalStyle = createGlobalStyle`
 
         font-family: "Space Grotesk", sans-serif;
         font-optical-sizing: auto;
-        /* font-weight: <weight>; */
         font-style: normal;
 
         color-scheme: light dark;
-        /* color: rgba(255, 255, 255, 0.87); */
-        background-color: #242424;
         color: #FED8B1;
         background-color: #6F4E37;
 
@@ -63,9 +60,6 @@ export const GlobalStyle = createGlobalStyle`
         color: #ECB176;
         color: #F8EDE3;
         color: #FED8B1;
-        /* Cor utilizada */
-        /* color: #ffffff; */
-        /* background-color: #A67B5B; */
         text-decoration: none;
     }
 `
