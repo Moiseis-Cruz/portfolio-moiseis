@@ -30,7 +30,7 @@ export const Hamburger = styled.div`
     div {
         width: 30px;
         height: 3px;
-        background-color: rgba(255, 255, 255, 0.87);
+        background-color: #F8EDE3;
         margin: 4px 0;
         transition: all 0.3s linear;
         transform-origin: 1px;
@@ -83,6 +83,11 @@ export const BtnContact = styled.a`
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 50px;
+    &:hover{
+        background-color: transparent;
+        border: 2px solid #F8EDE3;
+        color: #F8EDE3;
+    }
 
     @media (max-width: 768px) {
         width: 100%;
