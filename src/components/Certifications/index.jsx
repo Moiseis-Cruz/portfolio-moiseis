@@ -76,7 +76,7 @@ const CertificatesList = styled.div`
 
 const Certificate = styled.div`
     width: 300px;
-    border: 2px solid #ffffff;
+    border: 2px solid #F8EDE3;
     height: 400px;
     border-radius: 8px 0 8px 0;
     text-align: center;
