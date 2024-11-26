@@ -35,7 +35,7 @@ export const ImgHero = styled.img`
     border-radius: 50%;
     box-shadow: 0 0 3px 3px #FED8B1;
 
-    background: linear-gradient(to right, #ECB176, #A67B5B);
+    background: linear-gradient(to right, #FED8B1, #A67B5B);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 
