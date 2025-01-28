@@ -1,10 +1,13 @@
 import styled from "styled-components";
 import { Card } from "../Card";
-import GifRAM from "../../assets/gifs/RAM.gif";
-import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif";
-import GifPricingComponent from "../../assets/gifs/pricing-component.gif";
-import GifCodeGenerator from "../../assets/gifs/qr-code-generator.gif";
-import GifAdviceGenerator from "../../assets/gifs/advice-generator.gif"
+// import GifRAM from "../../assets/gifs/RAM.gif";
+// import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif";
+// import GifPricingComponent from "../../assets/gifs/pricing-component.gif";
+// import GifCodeGenerator from "../../assets/gifs/qr-code-generator.gif";
+// import GifAdviceGenerator from "../../assets/gifs/advice-generator.gif";
+
+import { cards } from "./Cards.mock";
+
 
 export const MyProjects = () => {
     return(
@@ -15,7 +18,7 @@ export const MyProjects = () => {
 
             <CardsContainer>
 
-                <Card>
+                {/* <Card>
                     <img src={GifRAM} alt="Imagem do projeto Rick and Morty" />
                     <CardTitle>Rick and Morty</CardTitle>
                     <CardDescription>Bem-vindo a mundo de Rick and Morty. Este é um projeto pessoal que desenvolvi para testar as minhas habilidades com React.js e aulgumas <i>lib</i> que eu aprendi a trabalhar. Como por exemplo, <i>Styled-components</i>: Para estilizar a aplicação. <i>React-Router</i>: Para acessar mais informações de cada card. <i>React-icons</i>: Para utilizar ícones da biblioteca do React.</CardDescription>
@@ -78,7 +81,24 @@ export const MyProjects = () => {
                         <AnchorBtn href="https://moiseis-cruz.github.io/advice-generator-app/" target="_blank">Projeto (live)</AnchorBtn>
                         <AnchorBtn href="https://github.com/Moiseis-Cruz/advice-generator-app" target="_blank">Repositório</AnchorBtn>
                     </ButtonsContainer>
-                </Card>
+                </Card> */}
+
+                {
+                    cards.map((card) => {
+                        return(
+                            <Card key={card.titulo}>
+                                <img src={card.endereco} alt={`gif do projeto ${card.titulo}`} />
+                                <CardTitle>{card.titulo}</CardTitle>
+                                <CardDescription>{card.texto}</CardDescription>
+                                <p>{card.tectnologias}</p>
+                                <ButtonsContainer>
+                                    <AnchorBtn href={card.urlProjeto} target="_blank">Projeto</AnchorBtn>
+                                    <AnchorBtn href={card.urlRepositorio} target="_blank">Repositório</AnchorBtn>
+                                </ButtonsContainer>
+                            </Card>
+                        )
+                    })
+                }
 
             </CardsContainer>
 
