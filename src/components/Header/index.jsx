@@ -10,8 +10,8 @@ export const Header = () => {
     };
 
     const closeMenu = () => {
-        setIsOpen(false)
-    }
+        setIsOpen(false);
+    };
 
     return(
         <MyHeader>
