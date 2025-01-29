@@ -2,6 +2,8 @@ import styled from "styled-components";
 import CertificadoLogicaProgramacao from "../../assets/imgs/logica-programacao-js.png"
 import CertificadoChatGPT from "../../assets/imgs/Curso-ChatGPT.png"
 import CertificationGitbub from "../../assets/imgs/Curso-Git-e-GitHub.png"
+import { certifications } from "./Certifications.mock";
+import { BsReverseLayoutSidebarInsetReverse } from "react-icons/bs";
 
 export const Certifications = () => {
     return(
@@ -13,7 +15,7 @@ export const Certifications = () => {
 
             <CertificatesList>
 
-                    <Certificate>
+                    {/* <Certificate>
                         <CertificationDate>julho, 2024</CertificationDate>
 
                         <img src={CertificadoLogicaProgramacao} alt="Certificado Lógica de Programação" />
@@ -41,7 +43,20 @@ export const Certifications = () => {
                         <CourseTitle>Curso Git & GitHub</CourseTitle>
 
                         <Description>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</Description>
-                    </Certificate>
+                    </Certificate> */}
+
+                    {
+                        certifications.map((certification) => {
+                            return(
+                                <Certificate key={certification.titulo}>
+                                    <CertificationDate>{certification.data}</CertificationDate>
+                                    <img src={certification.imagem} alt={`Imagem do certificado de ${certification.titulo}`} />
+                                    <CourseTitle>{certification.titulo}</CourseTitle>
+                                    <Description>{certification.descricao}</Description>
+                                </Certificate>
+                            )
+                        })
+                    }
 
             </CertificatesList>
 
