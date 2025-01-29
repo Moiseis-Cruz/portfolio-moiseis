@@ -1,9 +1,5 @@
 import styled from "styled-components";
-import CertificadoLogicaProgramacao from "../../assets/imgs/logica-programacao-js.png"
-import CertificadoChatGPT from "../../assets/imgs/Curso-ChatGPT.png"
-import CertificationGitbub from "../../assets/imgs/Curso-Git-e-GitHub.png"
 import { certifications } from "./Certifications.mock";
-import { BsReverseLayoutSidebarInsetReverse } from "react-icons/bs";
 
 export const Certifications = () => {
     return(
@@ -14,36 +10,6 @@ export const Certifications = () => {
             <Message>Confira os meus principais certificados, <br/> Essenciasi para o meu desenvolvimento!</Message>
 
             <CertificatesList>
-
-                    {/* <Certificate>
-                        <CertificationDate>julho, 2024</CertificationDate>
-
-                        <img src={CertificadoLogicaProgramacao} alt="Certificado Lógica de Programação" />
-
-                        <CourseTitle>Lógica  de Programação</CourseTitle>
-
-                        <Description>Lógica de Programação: 6 horas. Ensinando como utilizar métodos, laços de repetição, condicionais, como estruturar o código, como usar funções e mais.</Description>
-                    </Certificate>
-
-                    <Certificate>
-                        <CertificationDate>julho, 2024</CertificationDate>
-
-                        <img src={CertificadoChatGPT} alt="Certificado ChatGPT" />
-
-                        <CourseTitle>Curso ChatGPT</CourseTitle>
-
-                        <Description>ChatGPT: 8 horas. Ensina a como otimizar buscas para obter melhores resultados de mais qualidade.</Description>
-                    </Certificate>
-
-                    <Certificate>
-                        <CertificationDate>julho, 2024</CertificationDate>
-
-                        <img src={CertificationGitbub} alt="Certificado Git & GitHub" />
-
-                        <CourseTitle>Curso Git & GitHub</CourseTitle>
-
-                        <Description>Git & GitHub: 8 horas. Onde ensina os fundamentos de compartilhar e colaborando em projetos.</Description>
-                    </Certificate> */}
 
                     {
                         certifications.map((certification) => {
