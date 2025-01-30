@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Card } from "../Card";
 
-import { cards } from "./Cards.mock";
+import { cards } from "../../mocks/Cards.mock";
 
 
 export const MyProjects = () => {

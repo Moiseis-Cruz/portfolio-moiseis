@@ -1,5 +1,5 @@
 import styled from "styled-components"; 
-import { certifications } from "./Certifications.mock";
+import { certifications } from "../../mocks/Certifications.mock";
 
 export const Certifications = () => {
     return(
@@ -59,6 +59,7 @@ const CertificatesList = styled.div`
 
 const Certificate = styled.div`
     min-width: 300px;
+    max-width: 320px;
     border: 2px solid #F8EDE3;
     height: 400px;
     border-radius: 8px 0 8px 0;
