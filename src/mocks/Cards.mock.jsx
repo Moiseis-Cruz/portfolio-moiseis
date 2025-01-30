@@ -1,8 +1,8 @@
-import GifRAM from "../../assets/gifs/RAM.gif";
-import GifGithubUserSearcher from "../../assets/gifs/github-user-searcher.gif";
-import GifPricingComponent from "../../assets/gifs/pricing-component.gif";
-import GifCodeGenerator from "../../assets/gifs/qr-code-generator.gif";
-import GifAdviceGenerator from "../../assets/gifs/advice-generator.gif";
+import GifRAM from "../assets/gifs/RAM.gif";
+import GifGithubUserSearcher from "../assets/gifs/github-user-searcher.gif";
+import GifPricingComponent from "../assets/gifs/pricing-component.gif";
+import GifCodeGenerator from "../assets/gifs/qr-code-generator.gif";
+import GifAdviceGenerator from "../assets/gifs/advice-generator.gif";
 
 export const cards = [
     {
