@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"; 
 import { certifications } from "./Certifications.mock";
 
 export const Certifications = () => {
@@ -47,16 +47,18 @@ const Message = styled.p`
 
 const CertificatesList = styled.div`
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 60px;
     gap: 20px;
     padding: 30px 0;
     height: 480px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 20px;
 `
 
 const Certificate = styled.div`
-    width: 300px;
+    min-width: 300px;
     border: 2px solid #F8EDE3;
     height: 400px;
     border-radius: 8px 0 8px 0;
