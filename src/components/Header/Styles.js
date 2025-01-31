@@ -18,7 +18,7 @@ export const Title = styled.h2`
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    border: 5px solid #FED8B1;
+    border: 5px solid var(--quartiary-color);
 `
 
 export const Hamburger = styled.div`
@@ -30,7 +30,7 @@ export const Hamburger = styled.div`
     div {
         width: 30px;
         height: 3px;
-        background-color: #F8EDE3;
+        background-color: var(--light-color);
         margin: 4px 0;
         transition: all 0.3s linear;
         transform-origin: 1px;
@@ -62,7 +62,7 @@ export const Nav = styled.nav`
         top: 80px;
         left: 0;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: var(--dark-color);
         padding: 20px 0;
     }
 `
@@ -79,14 +79,16 @@ export const ListSections = styled.ul`
 `
 
 export const BtnContact = styled.a`
-    background-color: #A67B5B;
+    background-color: var(--secundary-color);
     font-size: 20px;
+    font-weight: 600;
     padding: 10px 20px;
     border-radius: 50px;
+    transition: ease-in-out 0.3s;
     &:hover{
         background-color: transparent;
-        border: 2px solid #F8EDE3;
-        color: #F8EDE3;
+        border: 2px solid var(--light-color);
+        color: var(--light-color);
     }
 
     @media (max-width: 768px) {
