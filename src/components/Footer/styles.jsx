@@ -17,7 +17,7 @@ export const FooterLogo = styled.h2`
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    border: 5px solid #FED8B1;
+    border: 5px solid var(--quartiary-color);
     `
 
 export const FooterGrid = styled.div`
