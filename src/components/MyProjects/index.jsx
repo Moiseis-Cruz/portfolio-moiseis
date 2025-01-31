@@ -77,7 +77,7 @@ const CardDescription = styled.p`
     overflow-y: scroll;
     height: 90px;
     padding-left: 5px;
-    border: 3px solid #A67B5B;
+    border: 3px solid var(--secundary-color);
 `
 
 const ButtonsContainer = styled.div`
@@ -94,11 +94,11 @@ const AnchorBtn = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #F8EDE3;
+    color: var(--light-color);
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 5px;
     text-transform: uppercase;
-    border: 2px solid #A67B5B;
-    background-color: #ECB176;
+    border: 2px solid var(--secundary-color);
+    background-color: var(--tertiary-color);
 `
