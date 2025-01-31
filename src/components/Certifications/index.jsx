@@ -55,17 +55,21 @@ const CertificatesList = styled.div`
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-padding-left: 20px;
-`
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -10px -10px 10px 10px black;
+    `
 
 const Certificate = styled.div`
     min-width: 300px;
     max-width: 320px;
-    border: 2px solid #F8EDE3;
+    border: 2px solid var(--secundary-color);
     height: 400px;
     border-radius: 8px 0 8px 0;
     text-align: center;
     padding: 10px;
-
+    
+    /* background-color: red; */
     /* &:nth-child(even) {
         margin-top: 100px;
     } */
@@ -84,7 +88,7 @@ const Description = styled.p`
     width: 100%;
     height: 100px;
     overflow-y: scroll;
-    border: 1px solid #F8EDE3;
+    border: 1px solid var(--primary-color);
     margin-top: 5px;
     padding: 5px;
     text-align: left;
