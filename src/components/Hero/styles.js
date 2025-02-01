@@ -25,9 +25,6 @@ export const ContentImg = styled.div`
     border-radius: 50%;
     padding: 15px;
     box-shadow: inset 0 0 3px 3px var(--quartiary-color);
-    /* @media (max-width: 375px) {
-        padding: 0;
-    } */
     `
 
 export const ImgHero = styled.img`
