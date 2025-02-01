@@ -101,4 +101,8 @@ const AnchorBtn = styled.a`
     text-transform: uppercase;
     border: 2px solid var(--secundary-color);
     background-color: var(--tertiary-color);
+    transition: ease-in-out 0.3s;
+    &:hover {
+        background-color: var(--dark-color);
+    }
 `
