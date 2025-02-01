@@ -1,5 +1,6 @@
 import { MyHeader, Title, Hamburger, Nav, ListSections, BtnContact } from "./Styles";
 import React, { useState } from "react";
+import { FaCode } from "react-icons/fa";
 
 export const Header = () => {
 
@@ -15,7 +16,10 @@ export const Header = () => {
 
     return(
         <MyHeader>
-            <Title>MC</Title>
+            <Title>
+                <FaCode />
+                MC
+            </Title>
 
             <Hamburger $isOpen={isOpen} onClick={togglerMenu}>
 
