@@ -48,7 +48,7 @@ const Message = styled.p`
 const CertificatesList = styled.div`
     display: flex;
     justify-content: flex-start;
-    margin-top: 60px;
+    margin: 60px auto 0;
     gap: 20px;
     padding: 30px 0;
     height: 480px;
@@ -58,6 +58,10 @@ const CertificatesList = styled.div`
     padding: 20px;
     border-radius: 15px;
     box-shadow: -10px -10px 10px 10px black;
+    max-width: 980px;
+    @media (max-width: 768px) {
+        max-width: 660px;
+    }
     `
 
 const Certificate = styled.div`
@@ -68,11 +72,6 @@ const Certificate = styled.div`
     border-radius: 8px 0 8px 0;
     text-align: center;
     padding: 10px;
-    
-    /* background-color: red; */
-    /* &:nth-child(even) {
-        margin-top: 100px;
-    } */
 `
 
 const CertificationDate = styled.h3`
