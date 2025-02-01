@@ -10,15 +10,12 @@ export const MyHeader = styled.header`
 `
 
 export const Title = styled.h2`
-    width: 120px;
-    height: 120px;
     font-size: 3.5rem;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    border: 5px solid var(--quartiary-color);
+    gap: 10px;  
 `
 
 export const Hamburger = styled.div`
