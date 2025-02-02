@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 export const About = () => {
     return(
-        <section style={{padding: "40px 0"}} id="about">
+        <AboutSection id="about">
             <Subtitle>Sobre mim...</Subtitle>
 
             <ContainerAbout>
@@ -39,9 +39,13 @@ export const About = () => {
                     <MyDescription>Eu sou apaixonado por JavaScript, minha ferramenta predileta, e busco diariamente novas formas de aprimorar minhas capacidades. Essa linguagem versátil me motiva a criar aplicações dinâmicas e interativas, proporcionando uma experiência envolvente para o usuários. Atualmente, atuo como freelancer, onde abraço a diversidade de projetos e enfrento desafio que constantemente estimulam meu crescimento profissional, incentivando minha busca contínua por aprendizado.</MyDescription>
                 </ContentDescription>
             </ContainerAbout>
-        </section>
+        </AboutSection>
     )
 };
+
+const AboutSection = styled.section`
+    padding: 40px 0;
+`
 
 const Subtitle = styled.h2`
     font-size: 4.5rem;
@@ -65,7 +69,6 @@ const ContainerAbout = styled.div`
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 0 10px;
     }
 `
 
@@ -76,7 +79,7 @@ const TitleDescription = styled.h3`
     @media (max-width: 1024px) {
         margin: 15px auto 0;
     }
-    `
+`
 
 const Description = styled.p`
     font-size: 1.2rem;
