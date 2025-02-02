@@ -54,7 +54,6 @@ const DescriptionProjects = styled.p`
     font-weight: 500;
     max-width: 550px;
     margin: 20px auto 0;
-
 `
 
 const CardsContainer = styled.div`
