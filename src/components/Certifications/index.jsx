@@ -32,7 +32,7 @@ export const Certifications = () => {
 
 const CertificationsSection = styled.section`
     padding: 50px 0;
-    `
+`
 
 const Subtitle = styled.h2`
     text-align: center;
@@ -50,7 +50,6 @@ const CertificatesList = styled.div`
     justify-content: flex-start;
     margin: 60px auto 0;
     gap: 20px;
-    padding: 30px 0;
     height: 480px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
@@ -60,9 +59,12 @@ const CertificatesList = styled.div`
     box-shadow: -10px -10px 10px 10px black;
     max-width: 980px;
     @media (max-width: 768px) {
-        max-width: 660px;
+        max-width: 659px;
     }
-    `
+    @media (max-width: 426px) {
+        max-width: 339px;
+    }
+`
 
 const Certificate = styled.div`
     min-width: 300px;
