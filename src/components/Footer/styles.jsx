@@ -17,7 +17,7 @@ export const FooterLogo = styled.h2`
     align-items: center;
     text-decoration: underline;
     border: 5px solid var(--quartiary-color);
-    `
+`
 
 export const FooterGrid = styled.div`
     display: grid;
@@ -31,7 +31,7 @@ export const FooterGrid = styled.div`
         grid-template-rows: repeat(2, auto);
         gap: 35px;
     }
-    @media (max-width: 425px) {
+    @media (max-width: 426px) {
         grid-template-columns: minmax(100px, 400px);
         row-gap: 55px;
     }
@@ -49,14 +49,18 @@ export const CopyrightBox = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    `
+`
 
 export const NavigationButtonsBox = styled.ul`
     display: flex;
     flex-direction: column;
     font-size: 1.7rem;
     gap: 1rem;
-    `
+    justify-self: center;
+    @media (max-width: 426px) {
+        justify-self: auto;
+    }
+`
 
 export const MyContactsBox = styled.div`
     display: flex;
@@ -68,7 +72,7 @@ export const MyContactsBox = styled.div`
     @media (max-width: 768px) {
         align-items: start;
     }
-    `
+`
 
 export const ContactList = styled.ul`
     display: flex;
