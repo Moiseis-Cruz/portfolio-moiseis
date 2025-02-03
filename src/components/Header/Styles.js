@@ -81,7 +81,7 @@ export const BtnContact = styled.a`
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 50px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.5s;
     &:hover{
         background-color: transparent;
         border: 2px solid var(--light-color);

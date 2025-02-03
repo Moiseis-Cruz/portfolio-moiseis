@@ -74,6 +74,7 @@ const Certificate = styled.div`
     border-radius: 8px 0 8px 0;
     text-align: center;
     padding: 10px;
+    transition: ease-in-out 0.5s;
 `
 
 const CertificationDate = styled.h3`
