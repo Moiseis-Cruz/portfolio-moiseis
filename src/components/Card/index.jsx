@@ -13,9 +13,11 @@ const Container = styled.div`
     max-width: 400px;
     color: var(--light-color);
     width: 100%;
-    min-height: 424px;
     padding: 10px;
     border-radius: 14px 0;
     text-align: center;
     border: 5px solid var(--secundary-color);
+    @media (max-width: 820px) {
+        max-width: 320px;
+    }
 `
