@@ -59,4 +59,9 @@ export const BtnContact = styled.a`
     font-weight: 500;
     background-color: var(--secundary-color);
     border-radius: 8px;
+    transition: ease-in-out 0.5s;
+    &:hover{
+        background-color: transparent;
+        border: 2px solid var(--light-color);
+    }
 `
