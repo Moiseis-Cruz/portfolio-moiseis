@@ -1,7 +1,7 @@
 import { FaReact, FaCss3Alt, FaHtml5, FaGithub, FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 
-import BgMyProfile from "../../assets/imgs/meu-perfil.png";
+import BgMyProfile from "../../assets/imgs/image-profile.png";
 import styled from "styled-components";
 
 export const About = () => {

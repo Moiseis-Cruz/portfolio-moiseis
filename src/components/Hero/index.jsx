@@ -1,4 +1,4 @@
-import ImgMyPerfil from "../../assets/imgs/meu-perfil.png";
+import ImgMyPerfil from "../../assets/imgs/profile-2.png";
 import { Container, Title, BtnContact, ContentImg, ImgHero } from "./styles";
 
 export const Hero = () => {
@@ -13,7 +13,7 @@ export const Hero = () => {
                     Developer.
                 </Title>
 
-                <BtnContact href="">Entre em contato</BtnContact>
+                <BtnContact href="../../downloads/Moiseis_Cruz_Curriculo.docx" download="">Entre em contato</BtnContact>
             </div>
 
             <ContentImg>
