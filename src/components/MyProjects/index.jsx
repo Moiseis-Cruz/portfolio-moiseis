@@ -64,6 +64,10 @@ const CardsContainer = styled.div`
     align-items: center;
     padding: 50px 0;
     gap: 15px;
+    &:hover > :not(:hover){
+        opacity: 0.7;
+        filter: blur(5px);
+    }
 `
 
 const CardTitle = styled.h2`

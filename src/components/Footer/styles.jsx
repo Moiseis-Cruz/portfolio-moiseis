@@ -57,6 +57,11 @@ export const NavigationButtonsBox = styled.ul`
     font-size: 1.7rem;
     gap: 1rem;
     justify-self: center;
+    li a {
+        &:hover{
+            color: var(--dark-color);
+        }
+    }
     @media (max-width: 426px) {
         justify-self: auto;
     }
@@ -78,4 +83,9 @@ export const ContactList = styled.ul`
     display: flex;
     font-size: 1.7rem;
     gap: 1rem;
+    li a {
+        &:hover{
+            color: var(--dark-color);
+        }
+    }
 `
