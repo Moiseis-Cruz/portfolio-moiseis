@@ -1,4 +1,4 @@
-import ImgMyPerfil from "../../../public/assets/imgs/profile-2.png";
+import ImgMyPerfil from "/assets/imgs/profile-2.png";
 import { Container, Title, BtnContact, ContentImg, ImgHero } from "./styles";
 
 export const Hero = () => {

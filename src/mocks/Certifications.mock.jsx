@@ -1,6 +1,6 @@
 import CertificadoLogicaProgramacao from "../../public/assets/imgs/logica-programacao-js.png";
-import CertificadoChatGPT from "../../public/assets/imgs/Curso-ChatGPT.png";
-import CertificationGitbub from "../../public/assets/imgs/Curso-Git-e-GitHub.png";
+import CertificadoChatGPT from "/assets/imgs/Curso-ChatGPT.png";
+import CertificationGitbub from "/assets/imgs/Curso-Git-e-GitHub.png";
 
 export const certifications = [
     {
