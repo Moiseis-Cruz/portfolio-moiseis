@@ -10,7 +10,7 @@ export const Card = ({children}) => {
 
 const Container = styled.div`
     background: linear-gradient(0deg, var(--tertiary-color), var(--primary-color));
-    max-width: 400px;
+    max-width: 370px;
     color: var(--light-color);
     width: 100%;
     padding: 10px;
