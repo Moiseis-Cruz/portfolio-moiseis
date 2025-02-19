@@ -16,7 +16,7 @@ export const MyProjects = () => {
                 {
                     cards.map((card) => {
                         return(
-                            <Card key={card.titulo}>
+                            <Card key={card.id}>
                                 <img src={card.endereco} alt={`gif do projeto ${card.titulo}`} />
                                 <CardTitle>{card.titulo}</CardTitle>
                                 <CardDescription>{card.texto}</CardDescription>
@@ -60,10 +60,13 @@ const CardsContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    place-content: center;
     align-items: center;
     padding: 50px 0;
     gap: 15px;
+    height: 947px;
+    overflow-y: scroll;
+    margin-top: 40px;
+    box-shadow: var(--secundary-color) -8px 8px 8px 3px;
     &:hover > :not(:hover){
         transition: ease-in-out 0.4s;
         opacity: 0.7;
@@ -73,6 +76,9 @@ const CardsContainer = styled.div`
 
 const CardTitle = styled.h2`
     margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 `
 
 const CardDescription = styled.p`
