@@ -65,6 +65,7 @@ const CardsContainer = styled.div`
     padding: 50px 0;
     gap: 15px;
     &:hover > :not(:hover){
+        transition: ease-in-out 0.4s;
         opacity: 0.7;
         filter: blur(5px);
     }
@@ -104,7 +105,7 @@ const AnchorBtn = styled.a`
     text-transform: uppercase;
     border: 2px solid var(--secundary-color);
     background-color: var(--tertiary-color);
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.4s;
     &:hover {
         background-color: var(--dark-color);
     }

@@ -58,6 +58,7 @@ export const NavigationButtonsBox = styled.ul`
     gap: 1rem;
     justify-self: center;
     li a {
+        transition: ease-in-out 0.4s;
         &:hover{
             color: var(--dark-color);
         }
@@ -84,6 +85,7 @@ export const ContactList = styled.ul`
     font-size: 1.7rem;
     gap: 1rem;
     li a {
+        transition: ease-in-out 0.4s;
         &:hover{
             color: var(--dark-color);
         }
