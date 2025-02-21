@@ -1,4 +1,4 @@
-import CertificadoLogicaProgramacao from "../../public/assets/imgs/logica-programacao-js.png";
+import CertificadoLogicaProgramacao from "/assets/imgs/logica-programacao-js.png";
 import CertificadoChatGPT from "/assets/imgs/Curso-ChatGPT.png";
 import CertificationGitbub from "/assets/imgs/Curso-Git-e-GitHub.png";
 
