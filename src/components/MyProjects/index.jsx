@@ -3,7 +3,6 @@ import { Card } from "../Card";
 
 import { cards } from "../../mocks/Cards.mock";
 
-
 export const MyProjects = () => {
     return(
         <SectionProjects id="my-projects">
@@ -22,7 +21,7 @@ export const MyProjects = () => {
                                 <CardDescription>{card.texto}</CardDescription>
                                 <p>{card.tectnologias}</p>
                                 <ButtonsContainer>
-                                    <AnchorBtn href={card.urlProjeto} target="_blank">Projeto</AnchorBtn>
+                                    {(card.urlProjeto !== "") ? <AnchorBtn href={card.urlProjeto} target="_blank">Projeto</AnchorBtn> : null}
                                     <AnchorBtn href={card.urlRepositorio} target="_blank">Repositório</AnchorBtn>
                                 </ButtonsContainer>
                             </Card>
@@ -63,7 +62,7 @@ const CardsContainer = styled.div`
     align-items: center;
     padding: 50px 0;
     gap: 15px;
-    height: 947px;
+    height: 465px;
     overflow-y: scroll;
     margin-top: 40px;
     box-shadow: var(--secundary-color) -8px 8px 8px 3px;
