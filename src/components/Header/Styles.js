@@ -7,6 +7,7 @@ export const MyHeader = styled.header`
     width: 100%;
     max-width: 1440px;
     padding: 30px 40px;
+    background-color: var(--secundary-color);
 `
 
 export const Title = styled.h2`
