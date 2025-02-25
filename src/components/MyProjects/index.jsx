@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Card } from "../Card";
 
 import { cards } from "../../mocks/Cards.mock";
+import bgTeclado from "../../../public/assets/imgs/teclado.jpg";
 
 export const MyProjects = () => {
     return(
@@ -38,6 +39,8 @@ export const MyProjects = () => {
 const SectionProjects = styled.section`
     padding-top: 40px;
     text-align: center;
+    background: url(${bgTeclado}) center center no-repeat;
+    background-size: cover;
 `
 
 const Subtitle = styled.h2`
@@ -62,14 +65,19 @@ const CardsContainer = styled.div`
     align-items: center;
     padding: 50px 0;
     gap: 15px;
+    width: 1200px;
+    max-width: 100%;
     height: 465px;
     overflow-y: scroll;
-    margin-top: 40px;
+    margin: 40px auto 0;
     box-shadow: var(--secundary-color) -8px 8px 8px 3px;
     &:hover > :not(:hover){
         transition: ease-in-out 0.4s;
         opacity: 0.7;
         filter: blur(5px);
+    }
+    @media (max-width: 1024px) {
+        width: 790px;
     }
 `
 
