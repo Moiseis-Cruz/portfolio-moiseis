@@ -32,6 +32,10 @@ export const GlobalStyle = createGlobalStyle`
         border: 3px double var(--primary-color);
     }
 
+    html {
+        background-color:rgb(141, 141, 141);
+    }
+
     body {
         width: 100%;
         max-width: 1440px;
